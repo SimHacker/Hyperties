@@ -13,6 +13,12 @@ encyclopedia in your browser. Begin with
 
 **[Ben, welcome back — a five-minute tour](docs/README.md)**
 
+**[Ben: preservation, reincarnation and the plans behind the work](docs/README.md#preservation-and-reincarnation-the-thinking-behind-the-work)**
+— not just a technical report: why we preserve paths, previews and authored
+relationships, how the archive is mapped, and how recovered material can become
+standalone publications and part of a living HyperTIES. Your historical and
+design perspective should help shape this work.
+
 Top-level layers: [corpus](corpus/README.md), [reference](reference/README.md),
 [docs](docs/README.md), [analysis](analysis/README.md) and [tools](tools/README.md).
 Use the [repository index](INDEX.md), [layout/path map](docs/layout.md),
@@ -27,6 +33,9 @@ for Don's edition and modern application stack without migrating them now.
 | [Formats and verified recovery](docs/formats.md) | Byte-level definitions, shared TypeScript readers, and explicit unknowns |
 | [Complete file-type registry](docs/file-types/README.md) | All surveyed types: standards, bespoke formats, unknowns and tool work items |
 | [Dropbox-to-GitHub import process](docs/import-process.md) | Provenance, backup policy, approved cleanup, mapping and organization philosophy |
+| [Architecture and conversion philosophy](docs/architecture.md) | One reusable core for conversion and readers; originals remain the source of truth |
+| [Publication and future integration plans](docs/future-integration.md) | Standalone nuggets, transclusion, and future NeWS/webtop connections |
+| [Crown-jewel restoration intentions](analysis/crown-jewels.md) | Preserve authored interactions, historical framing and meaningful editions |
 | [Source collection catalog](docs/collections.md) | Every retained collection, with layered summaries and file-level indexes |
 | [Detailed technical survey](analysis/README.md) | Format research, recovery scripts, source evidence and verification |
 | [Shared TypeScript tools](tools/README.md) | Browser/Node byte readers, LZW decoder, build and tests |
@@ -47,7 +56,7 @@ are excluded.
 - **402 earlier museum articles parsed**, preserving thematic and chronological
   navigation evidence.
 - **49 comparable ACM records decoded byte-for-byte** against original sources.
-- Shared **TypeScript** parsers and LZW decoding work in Node and browsers.
+- Shared **TypeScript** parsers and both packed codecs work in Node and browsers.
 - **16 tests pass**, covering source equality, malformed inputs, catalog coverage
   and browser compatibility.
 - **113 CACM arithmetic records match loose originals byte-for-byte**.

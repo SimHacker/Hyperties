@@ -38,7 +38,7 @@ GitHub should be a comprehensible restoration collection, not another backup.
 | Remaining collection | 2,529 files / approximately 31.23 MiB, excluding generated tools/reports |
 | Historical executables | 16 distinct groups, each retained once |
 | Remaining shared content | 49 duplicate groups / 64 extra copies / about 0.50 MiB |
-| Semantic recovery | Article/index catalog, verified LZW subset, local reading prototype |
+| Semantic recovery | Article/index catalog; all 248 book records decoded with two verified codecs; 402 museum articles in the published reading room |
 
 The root README changes during documentation work, so exact current byte totals
 vary. Historical payload excluding that README is 32,742,340 bytes.
