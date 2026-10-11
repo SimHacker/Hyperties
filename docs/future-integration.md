@@ -46,6 +46,16 @@ nuggets is a natural next step.
 
 ## Keep the layout open
 
+The broader mission is a reusable preservation pipeline spanning PIXIE,
+PDP-7 UNIX, Turing-machine teaching materials and a proposed PDP-1 emulator
+for L. Peter Deutsch's Lisp interpreter. The
+[pipeline discussion for Ben](README.md#a-reusable-preservation-pipeline-pixie-unix-lisp-and-beyond)
+describes linking core addresses, disassembly, recovered assembly and scanned
+listings, following the PIXIE OCR/source-map work. Historical publications and
+interactive courseware should share this provenance chain. The proposed PDP-1
+work and other systems have not been imported here; shared tooling should not
+blur project boundaries or imply permissions that have not been established.
+
 The educational direction also includes a proposed universal Turing-machine
 cabinet device, with TypeScript renderers, editors, debuggers and live-coding
 tools sharing its running state. It could participate in a shared-memory

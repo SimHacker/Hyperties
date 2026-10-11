@@ -322,12 +322,42 @@ The teaching materials, their authors' intentions and their educational use
 matter as much as the emulator. This could connect philosophy, computer science,
 HCI, libraries and museums through a common set of reusable interactive exhibits.
 
+### A reusable preservation pipeline: PIXIE, UNIX, Lisp and beyond
+
+We already have [PDP-7 UNIX running in the browser](https://hyperties.org/cabinet/unix/),
+alongside Heinz's graphics system. Another project I want to pursue is a PDP-1
+emulator running **L. Peter Deutsch's Lisp interpreter**, with links back to
+scans of the PDP-1 assembly listing in his published papers.
+
+The model is the mapping we built for Heinz's OCR-recovered PIXIE listing:
+connect a running core address to its disassembly, recovered assembly source,
+and the corresponding place on the scanned listing. A reader can move between
+the machine doing the work and the historical document explaining it, inspect
+an OCR uncertainty against the scan, and understand where the reconstructed
+program came from. The PDP-1/Lisp extension is proposed, not already implemented.
+
+**I am developing a reusable historical preservation pipeline**, not a series
+of unrelated emulators. Its stages include preserving and identifying originals,
+recovering text and structured data, checking transcription against scans and
+machine words, assembling or converting reproducibly, linking execution back
+to sources, and publishing accessible interactive explanations. Each project
+keeps its own attribution, permissions, variants and uncertainties; shared tools
+make the next restoration easier without erasing what makes it distinct.
+The [PIXIE restoration account](https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/PIXIE-RESTORATION.md)
+shows this approach in practice.
+
+HyperTIES belongs on both sides of that pipeline: it is historical material
+we are restoring, and a model for the educational publications through which
+people can explore other restored systems. The payoff is not just executing
+old code, but connecting code, papers, people, machines and ideas in a form
+others can study, teach with and extend.
+
 ### Support and collaboration across the restoration projects
 
 Ben, could you help me think about **support and collaboration for this whole
 family of historical restoration projects**—HyperTIES and the museum database,
 Heinz's PIXIE and the PDP-7 environment, Turing machines and philosophy courseware,
-touchscreen interaction demonstrations,
+UNIX, the proposed PDP-1 Lisp restoration, touchscreen interaction demonstrations,
 and the shared tools for accessible, embodied historical exhibits?
 These are connected efforts, not separate requests to fund individual ports.
 I would value your advice on institutions, grants, collaborators and introductions
@@ -344,6 +374,11 @@ SIGCHI or related CHI programs, the Holocaust museum, or computer history museum
 you know and work with? The University of Maryland could be a natural
 collaborator too: the Computer Science and Philosophy departments, university libraries and HCIL
 may have interests in preserving and extending this research history.
+Beyond Maryland, MIT, The Unix Heritage Society (TUHS), the Game Developers
+Conference (GDC), and other research, preservation and educational organizations
+may be worth approaching for collaboration or support. We would need to
+investigate appropriate contacts and actual programs rather than assume that
+any particular organization offers grants.
 Your guidance on suitable programs, institutional
 contacts or introductions would be enormously helpful. We would want to shape
 a proposal around real institutional needs: preserving software and research
