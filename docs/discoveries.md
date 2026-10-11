@@ -79,6 +79,34 @@ and influence needs its own evidence: contemporary papers, original screen
 colors and configuration, early Web implementations, and clearly attributed
 recollections from Ben, Tim and other participants.
 
+### Existing record: Mozilla article and Hacker News discussion
+
+Don's archived links identify Elise Blanchard's Mozilla articles:
+
+- [Why are hyperlinks blue?](https://blog.mozilla.org/en/internet-culture/deep-dives/why-are-hyperlinks-blue/)
+- [Why are hyperlinks blue? Revisited](https://blog.mozilla.org/en/internet-culture/why-are-hyperlinks-blue-revisited/)
+- [January 2022 Hacker News discussion of the follow-up](https://news.ycombinator.com/item?id=29897811)
+- [Don's comment quoting Ben's account](https://news.ycombinator.com/item?id=29921532)
+- [Don's response to the follow-up](https://news.ycombinator.com/item?id=29930003)
+
+The follow-up credits Don for pointing Blanchard to Ben, whom she interviewed.
+It reports the highlighted light-blue link's implementation by Dan Ostroff
+and Ben's account of experiments comparing visibility with reading retention.
+Don's comment separately reproduces Ben's recollection: red made links easier
+to spot but reduced comprehension and recollection; the team chose light blue,
+and Tim told Ben that the *Hypertext on Hypertext* design influenced him.
+This is attributed testimony, not a substitute for locating the experiment
+records or the original correspondence.
+
+Preserve the discussion's qualifications too:
+[Sean Luke's comment](https://news.ycombinator.com/item?id=29899686)
+challenges the articles' premise about Mosaic being the first browser with
+blue links, citing evidence of color support in WorldWideWeb. That issue is
+distinct from the evidence for HCIL's studies and Ben's recollection of
+influence. The contextual essay should distinguish cyan/light blue from later
+dark-blue defaults, and not collapse a multi-system history into one unverified
+chain of copying.
+
 ### Planned publication layers
 
 1. **Historical source:** unchanged records, edition identity, checksums and

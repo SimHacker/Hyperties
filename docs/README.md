@@ -565,6 +565,9 @@ definitions, evidence and unknowns.
   or conversations connect Hyperties' link-color research to early Web styling?
   See the [blue-link publication plan](discoveries.md#the-blue-link-history-wrapped-around-a-preserved-publication),
   which distinguishes that documented citation from the color-history questions.
+  We also have the [Mozilla/Hacker News record](discoveries.md#existing-record-mozilla-article-and-hacker-news-discussion),
+  including Elise Blanchard's interview with you and Don's quotation of your
+  recollections, plus discussion of early browser-color evidence.
 - What was the exact book title, edition and authorship?
 - Who created the hyper-joke, and when and where was it first demonstrated?
   Don recalls it as the first hypertext joke; we want to preserve the story with
