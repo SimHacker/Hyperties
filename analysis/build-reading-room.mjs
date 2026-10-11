@@ -46,7 +46,20 @@ for (const article of articles) {
     }
   }
 }
-const data = JSON.stringify({ articles }).replaceAll('<', '\\u003c').replaceAll('&', '\\u0026');
+const museumIndex = catalog.indexes.find(i => i.path === relocatedPath('oldmjh/INDEX.TIE'));
+if (!museumIndex) throw new Error('Missing original museum index');
+const order = {
+  book: index.records.map(r => r.basename),
+  museum: [...new Set(museumIndex.records.map(r => r.basename.toUpperCase()))]
+    .filter(id => ids.has('museum:' + id)),
+};
+for (const article of articles) {
+  article.inOriginalIndex = order[article.collection].includes(article.id);
+}
+const unindexed = articles.filter(a => !a.inOriginalIndex).map(a => a.id).sort();
+order.museum.push(...unindexed);
+if (unindexed.length) console.warn(`Museum articles absent from original index, appended alphabetically: ${unindexed.join(', ')}`);
+const data = JSON.stringify({ articles, order }).replaceAll('<', '\\u003c').replaceAll('&', '\\u0026');
 const template = fs.readFileSync(path.join(here, 'viewer.html'), 'utf8');
 if (template.split('%%DATA%%').length !== 2) throw new Error('Expected exactly one dataset insertion point');
 if (template.split('%%CORE%%').length !== 2) throw new Error('Expected exactly one shared-code insertion point');

@@ -20,6 +20,7 @@ body{background:light-dark(#faf8f2,#181d23);color:light-dark(#263544,#e5e9ee)}h1
 <details><summary>How to explore and what to look for</summary>
 <p>As in HyperTIES: <strong>click</strong> a highlighted link to see its short description; <strong>double-click</strong> it (or press Follow link) to go there. With the keyboard, Tab to a link and press Enter once to see its description, twice to follow. Browser Back retraces your path. Search includes original aliases. Dotted labels indicate destinations we have not resolved.</p>
 <p>Original prose is not rewritten. The reading view can hide command tokens for readability; the original byte-view text and source checksums remain below each article. Graphics, fonts, exact page layouts and the remaining codec are still research work. This is not the original DOS interface.</p>
+<p>Back and Forward retrace this reader's browsing history. Previous/Next article browse the original collection index order (available records, including labeled book recovery gaps). Index focuses the searchable catalog. Museum articles absent from the original index are labeled and appended alphabetically.</p>
 <p>We would especially value your memories of the joke's authorship and first demonstration, the book's exact edition, and how the museum's thematic, chronological and map navigation worked.</p>
 </details>
 </section>
@@ -38,6 +39,14 @@ body{background:light-dark(#faf8f2,#181d23);color:light-dark(#263544,#e5e9ee)}h1
 <p id="count"></p><div id="list"></div>
 </aside>
 <article aria-live="polite">
+<nav aria-label="Reader navigation">
+<button id="back" disabled>Back</button>
+<button id="forward" disabled>Forward</button>
+<button id="previous-article" disabled>Previous article</button>
+<button id="next-article" disabled>Next article</button>
+<button id="index">Index</button>
+</nav>
+<p id="article-position" class="metadata"></p>
 <h2 id="title" tabindex="-1"></h2>
 <p id="collection-label" class="eyebrow"></p>
 <label><input id="show-commands" type="checkbox"> Show unimplemented historical commands in reading view</label>
@@ -56,9 +65,21 @@ let currentArticle=null,tourStop=-1;
 const element=id=>document.getElementById(id);
 const byId=new Map(data.articles.map(a=>[a.collection+':'+a.id,a]));
 const accessText=HypertiesFormats.displayCP437;
+let historyPosition=0,historyEnd=0;
+history.replaceState({...history.state,readingRoomPosition:0},'');
+function navigation(){
+ element('back').disabled=historyPosition===0;
+ element('forward').disabled=historyPosition===historyEnd;
+ const order=data.order[collection];
+ const position=currentArticle?order.indexOf(currentArticle.id):-1;
+ element('previous-article').disabled=position<=0;
+ element('next-article').disabled=position<0||position===order.length-1;
+ element('article-position').textContent=position<0?'':`Article ${position+1} of ${order.length} — ${currentArticle.inOriginalIndex?'original index order (available records)':'not in original index; appended alphabetically'}`;
+}
 function catalog(){
 const q=element('search').value.toUpperCase();
-const articles=data.articles.filter(a=>a.collection===collection&&[a.title,...a.aliases].some(s=>s.toUpperCase().includes(q)));
+const articles=data.order[collection].map(id=>byId.get(collection+':'+id))
+ .filter(a=>[a.title,...a.aliases].some(s=>s.toUpperCase().includes(q)));
 element('count').textContent=articles.length+' indexed records';
 element('list').replaceChildren();
 for(const a of articles){const b=document.createElement('button');b.textContent=accessText(a.title)+(a.body===null?' [not recovered]':'');b.onclick=()=>select(a.collection,a.id);element('list').append(b);}
@@ -70,6 +91,7 @@ element('collection-label').textContent=a.collection==='book'?'1988 book collect
 element('provenance').textContent=a.source+' | '+a.id+' | '+a.evidence;
 element('preview').hidden=true;element('body').replaceChildren();
 element('raw').textContent=a.body===null?a.issue:a.body+'\n\n'+JSON.stringify({references:a.links,description:a.description},null,2);
+navigation();
 if(a.body===null){element('body').textContent='This indexed record has not been recovered. '+a.issue;return;}
 let cursor=0;
 const base=a.bodyOffset;
@@ -81,7 +103,7 @@ for(const link of a.links){
  const target=link.candidates.length===1?byId.get(a.collection+':'+link.candidates[0]):null;
  if(target){const anchor=document.createElement('a');anchor.href='#'+encodeURIComponent(a.collection+':'+target.id);anchor.textContent=accessText(link.label);
  // HyperTIES interaction: click shows the target's short description; double-click follows.
- const follow=()=>{location.hash=encodeURIComponent(a.collection+':'+target.id);};
+ const follow=()=>select(a.collection,target.id);
  anchor.onclick=e=>{e.preventDefault();define(anchor,target,follow);};
  anchor.ondblclick=e=>{e.preventDefault();follow();};
  anchor.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();e.repeat||anchor.classList.contains('selected')?follow():define(anchor,target,follow);}};
@@ -105,7 +127,28 @@ function define(anchor,target,follow){
  const go=document.createElement('button');go.textContent='Follow link';go.onclick=follow;go.disabled=false;
  p.append(heading,text,go);
 }
-function select(c,id){collection=c;element('search').value='';location.hash=encodeURIComponent(c+':'+id);route();}
+function select(c,id){
+ const key=c+':'+id;
+ if(!byId.has(key)){element('error').textContent='Unknown article: '+key;return;}
+ collection=c;element('search').value='';
+ if(!currentArticle||currentArticle.collection+':'+currentArticle.id!==key){
+  historyPosition++;historyEnd=historyPosition;
+  history.pushState({...history.state,readingRoomPosition:historyPosition},'','#'+encodeURIComponent(key));
+ }
+ route();
+}
+element('back').onclick=()=>history.back();
+element('forward').onclick=()=>history.forward();
+function adjacent(delta){
+ const order=data.order[collection],position=order.indexOf(currentArticle.id);
+ const id=order[position+delta];if(id)select(collection,id);
+}
+element('previous-article').onclick=()=>adjacent(-1);
+element('next-article').onclick=()=>adjacent(1);
+element('index').onclick=()=>{
+ element('search').value='';catalog();
+ element('search').scrollIntoView({block:'center'});element('search').focus();
+};
 element('book').onclick=()=>select('book','INTRODUCT');
 element('museum').onclick=()=>select('museum','INTRODUC');
 element('joke').onclick=()=>select('book','EXAMPLFP');
@@ -130,6 +173,11 @@ element('previous-stop').onclick=()=>{if(tourStop>0){tourStop--;tourView();}};
 element('next-stop').onclick=()=>{if(tourStop<tour.length-1){tourStop++;tourView();}};
 element('end-tour').onclick=()=>{tourStop=-1;tourView();};
 function route(){let key;try{key=decodeURIComponent(location.hash.slice(1)||'book:EXAMPLFP');}catch(error){if(!(error instanceof URIError))throw error;element('error').textContent='Malformed article address.';return;}const a=byId.get(key);if(a){element('error').textContent='';openArticle(a);}else element('error').textContent='Unknown article: '+key;}
+addEventListener('popstate',()=>{
+ const position=history.state?.readingRoomPosition;
+ if(Number.isInteger(position)){historyPosition=position;}
+ route();
+});
 addEventListener('hashchange',route);route();
 </script>
 </html>

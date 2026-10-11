@@ -13,8 +13,11 @@ This is an October 2026 work-in-progress, not a claim of complete restoration.
 
 **[Open the HyperTIES reading room](https://hyperties.org/archive/reading-room/)**
 in any browser — no account or installation needed. Click highlighted links to
-follow them; hover or focus a link to see its short description first, as
-HyperTIES did. Search and the article list are on the left.
+see their short descriptions; double-click to follow. Hover does nothing.
+Back and Forward retrace your browsing history. Previous/Next article browse
+the original index order, including labeled recovery gaps. Index focuses the
+searchable article catalog on the left. Two museum articles absent from the
+original index are explicitly labeled and appended alphabetically.
 
 - **[Tell the hypertext joke](https://hyperties.org/archive/reading-room/#book:EXAMPLFP)**
   and choose a response.
