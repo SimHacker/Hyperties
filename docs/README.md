@@ -69,6 +69,16 @@ checksums. A modern reader may improve access, but it should say where it differ
 from the historical interface. Unknowns stay visible, and missing material is
 not supplied by invented prose or graphics.
 
+**Honor the history without inheriting every limitation.** The
+[Cabinet manifesto](https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/MANIFESTO.md)
+captures the attitude: tribute, accessibility and fun matter more than realism
+for its own sake. The historical evidence stays honest, while the surrounding
+experience is ours to improve. A modern HyperTIES can offer better accessibility,
+richer connections, new forms of interaction and reuse that the original
+technology could not support. We should distinguish those enhancements from
+historical behavior and keep the originals available, not mistake fidelity to
+old constraints for fidelity to the ideas.
+
 **Make the collection understandable without forcing it into one tree.** Intact
 collections have a physical home, while subject, edition, platform, format and
 recovery status provide overlapping ways in. We remove accidental duplication,
@@ -86,6 +96,7 @@ future connections, not migrations already performed.
 
 | Discussion | Why it may interest you |
 |---|---|
+| [The Cabinet manifesto](https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/MANIFESTO.md) | The guiding attitude: preserve what makes the work itself, but improve access and possibilities beyond the old technology's limits |
 | [The preservation and import story](import-process.md) | What was kept, what was removed with permission, and why source, access copies and interpretation remain separate |
 | [The archive map and organization](layout.md), [edition/version view](by-version.md) and [storage view](by-storage.md) | Multiple ways to understand the collection without erasing the context of individual databases |
 | [Restoration priorities for the crown jewels](../analysis/crown-jewels.md) | The book, hyper-joke and museum as authored experiences; historical framing, oral-history questions and next milestones |

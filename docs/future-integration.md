@@ -16,6 +16,12 @@ have been moved as part of the current corpus reorganization.
 
 ## Publishing at hyperties.org: standalone nuggets
 
+The [Cabinet manifesto](https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/MANIFESTO.md)
+is a companion statement of intent: tribute, accessibility and fun take priority
+over realism for its own sake. Preserve the historical evidence and identify
+departures, but let modern readers do better than the old hardware and software
+allowed. Reincarnation is not restricted to emulating yesterday's limitations.
+
 hyperties.org can host static content as it becomes ready, alongside the new
 Hyperties engine Don is developing, with transclusion informed by his analysis
 of gwern.net. GitHub remains the source; the site is a publication target.

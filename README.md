@@ -19,6 +19,11 @@ relationships, how the archive is mapped, and how recovered material can become
 standalone publications and part of a living HyperTIES. Your historical and
 design perspective should help shape this work.
 
+The [Cabinet manifesto](https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/MANIFESTO.md)
+expresses a shared intention: honor the originals while making access,
+interaction and possibilities better than the old technology allowed.
+Historical fidelity does not require perpetuating historical limitations.
+
 Top-level layers: [corpus](corpus/README.md), [reference](reference/README.md),
 [docs](docs/README.md), [analysis](analysis/README.md) and [tools](tools/README.md).
 Use the [repository index](INDEX.md), [layout/path map](docs/layout.md),
