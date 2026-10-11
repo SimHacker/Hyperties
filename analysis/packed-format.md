@@ -70,10 +70,13 @@ single click (or the first Enter activation). Speech is off by default and
 stops on another selection, navigation or disabling the control. Unsupported
 browsers and speech errors are reported visibly; the text preview remains
 available. There is no microphone access or speech recognition in this feature.
-Prominent Read article aloud and Stop reading buttons beside the title provide
-explicit article playback independently of the definition option. Playback uses
+The compact toolbar's Read/Stop button provides explicit playback independently
+of its Definitions and Articles checkboxes. Articles automatically reads once per
+visit; toggling it again does not replay an already-started article. Navigation
+resets that memory, and Read can always replay it. Playback uses
 the rendered article text, or the original description for a definition-only
-record, preceded by the title.
+record, preceded by the title. Unimplemented command tokens are always hidden
+in the reading view and remain intact in the original markup.
 
 Link delimiters are hidden in the reading view. For original box-drawing lines,
 spacing is measured against the preceding border so removing delimiters does
