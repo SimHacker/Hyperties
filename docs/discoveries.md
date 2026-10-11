@@ -21,8 +21,8 @@ flowchart TD
 ```
 
 This diagram shows recovered candidate relationships, not a screenshot of the
-original interface. The general jokes article also references a hyperhumor
-record whose codec is still unresolved.
+original interface. The general jokes article also references the now-recovered
+definition-only hyperhumor record.
 
 An especially useful detail: the setup's stored target for the condimentary
 choice differs from what one index alias alone would suggest. Preserving the
@@ -60,6 +60,57 @@ The next goal is a readable, searchable access edition that keeps short
 descriptions, aliases, links and original graphics—not merely a flattened text
 dump. We have retained the original packed files and a distinct reference
 browser locally.
+
+## The blue link: history wrapped around a preserved publication
+
+The CACM July 1988 electronic *Hypertext on Hypertext* issue deserves both a
+restoration and an interpretive publication about the blue link. These are
+separate layers: preserve the original articles and navigation in their classic
+form, then wrap, transclude and contextualize them without rewriting their
+historical contents.
+
+There is a firm documentary starting point:
+[Tim Berners-Lee's 1989 proposal](https://www.w3.org/History/1989/proposal.html)
+cites **[HYP88] Hypertext on Hypertext**, describing the electronic version of
+the special CACM edition available for Macintosh or PC. That establishes a
+reference to the publication; it does not by itself establish why blue became
+the Web's link color. The story of Hyperties' highlighted links, color research
+and influence needs its own evidence: contemporary papers, original screen
+colors and configuration, early Web implementations, and clearly attributed
+recollections from Ben, Tim and other participants.
+
+### Planned publication layers
+
+1. **Historical source:** unchanged records, edition identity, checksums and
+   original index/link evidence.
+2. **Classic access edition:** recovered content and interaction, with explicit
+   limits where graphics, palette or behavior are not yet reproduced.
+3. **Contextual essay:** the blue link's design and history, including previews,
+   selection and following, accessibility, and the transition from standalone
+   hypertext to the Web.
+4. **Transcluded evidence:** precisely identified original passages and figures
+   embedded in the essay, each with a source link and recovery status. The reader
+   can step into the original context rather than accept an isolated quotation.
+5. **Modern exploration:** comparisons or interactive demonstrations labeled as
+   new interpretations, not smuggled into the historical edition.
+
+Keep the electronic CACM issue distinct from the book database despite their
+overlapping labels. The wrapper should have its own author, date, citations and
+revision history. Stable article and passage identifiers should support direct
+reading, embedding and transclusion; the current reading room is not yet a
+complete passage-level transclusion system.
+
+### Questions to develop with Ben
+
+- Which studies, papers and design decisions explain Hyperties' link colors?
+- What colors and selection states did the July 1988 issue actually use on
+  different displays, and do screenshots or recordings survive?
+- What evidence documents the connection to early Web link styling, beyond
+  the proposal's citation? Which details are recollections rather than records?
+- Who should be credited for the research, implementation and publication?
+
+This is a planned interpretive layer, not a completed historical account or a
+claim of exclusive invention of colored links.
 
 ## Jewish Heritage and the Holocaust
 

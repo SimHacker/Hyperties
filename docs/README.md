@@ -556,6 +556,15 @@ definitions, evidence and unknowns.
 
 ### Historical and design questions
 
+- Could we tell the story of the blue link with the CACM July 1988 electronic
+  *Hypertext on Hypertext* issue as a central artifact? We want to preserve its
+  classic form, then wrap and transclude it in a separately authored historical
+  layer. Which studies, original palettes, screenshots and recollections should
+  guide the account, and who should receive credit?
+- Berners-Lee's 1989 proposal cites the electronic issue. What further evidence
+  or conversations connect Hyperties' link-color research to early Web styling?
+  See the [blue-link publication plan](discoveries.md#the-blue-link-history-wrapped-around-a-preserved-publication),
+  which distinguishes that documented citation from the color-history questions.
 - What was the exact book title, edition and authorship?
 - Who created the hyper-joke, and when and where was it first demonstrated?
   Don recalls it as the first hypertext joke; we want to preserve the story with

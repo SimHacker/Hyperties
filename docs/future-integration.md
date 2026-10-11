@@ -44,6 +44,13 @@ Git-ignored) is a first self-contained example. It has no network dependencies
 and embeds the browser bundle. Splitting it into per-article and per-collection
 nuggets is a natural next step.
 
+An immediate example is the
+[blue-link publication plan](discoveries.md#the-blue-link-history-wrapped-around-a-preserved-publication):
+retain the classic CACM electronic issue, then wrap and transclude its contents
+in a separately authored historical explanation. Link each excerpt back to its
+edition and original context. Distinguish the documented 1989 proposal citation
+from claims about color influence that require additional evidence.
+
 ## Keep the layout open
 
 Historical material is a **forcing function**, not merely a showcase for tools
