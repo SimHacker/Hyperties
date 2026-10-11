@@ -46,6 +46,15 @@ nuggets is a natural next step.
 
 ## Keep the layout open
 
+A proposed embodied-interaction exhibit would demonstrate touchscreen lift-off
+selection with Sims-style portrayals of Ben Shneiderman, Catherine Plaisant and
+Rich Potter at a touchscreen IBM PC. The
+[proposal in Ben's welcome page](README.md#a-possible-next-demonstration-touchscreen-lift-off)
+calls for historical evidence and collaborator guidance before choosing the
+exact setup. Touch, movement, feedback and release should share one interaction
+model with the animated hand, with accessible alternatives and labeled modern
+enhancements. This is a future exhibit idea, not implemented functionality.
+
 - `corpus/` holds intact historical collections. The NeWS edition's content can
   join it without being forced into a DOS version category.
 - Its original reader/source should stay a coherent edition, not be scattered

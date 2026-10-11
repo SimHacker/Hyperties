@@ -167,6 +167,28 @@ were placed near the work, and how several people gathered around one drawing.
 Those are design facts a disembodied software simulation can easily lose.
 It is not gimmickry: the physical scene can make the ideas legible.
 
+### A possible next demonstration: touchscreen lift-off
+
+One especially fitting demonstration would put Sims-style portrayals of you,
+Catherine Plaisant and Rich Potter in front of a touchscreen IBM PC, explaining
+and demonstrating the **lift-off selection strategy**. Visitors could see the
+finger touch the screen, move to refine the target, and lift to commit the
+selection, with the hand, feedback and selected target all driven by the same
+interaction.
+
+Rather than a generic animation of someone tapping a screen, the demonstration
+could make the research question visible: what happens on contact, how a person
+corrects their aim, what their finger obscures, and why the moment of selection
+matters. A visitor could try it, replay it slowly, or compare it with a
+contact-to-select strategy. Accessible alternatives could expose the same
+interaction stages without requiring precise touch.
+
+This is a proposal, not a completed exhibit or a claim about a particular
+historical experiment. We would want your guidance on the hardware, software,
+feedback, terminology, each collaborator's contribution and appropriate
+portrayals. Surviving papers, photographs, code and demonstrations should guide
+the reconstruction; modern explanatory additions should be labeled.
+
 **HyperTIES restoration and documentation belong to this same mission.**
 Recovering your records, previews, maps and paths is one part; understanding the
 authors, readers, installations and collaborations is another. We want to
@@ -192,6 +214,9 @@ puts it, **tribute, accessibility and fun belong in the front seat.**
   and where would you welcome a different approach?
 - Does this map reflect the relationships between the projects as you remember
   them, and which collaborators or institutions need fuller attribution?
+- Would a touchscreen lift-off demonstration with you, Catherine Plaisant and
+  Rich Potter be a useful next exhibit? What original setup and material should
+  guide it?
 
 ## What is verified
 
