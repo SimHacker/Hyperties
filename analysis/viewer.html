@@ -14,12 +14,12 @@ body{background:light-dark(#faf8f2,#181d23);color:light-dark(#263544,#e5e9ee)}h1
 <section class="welcome" aria-label="Welcome and guided tour">
 <h2>Ben, welcome back.</h2>
 <p>Your archive is becoming readable again. This preview brings together the branching hyper-joke from the 1988 book collection and the Encyclopedia of Jewish Heritage and the Holocaust. It is a beginning—not a claim that every historical detail has been recreated.</p>
-<p><strong>218 book articles recovered · 402 museum articles readable · 30 book records still to decode</strong></p>
+<p><strong>All 248 book articles recovered · 402 museum articles readable</strong></p>
 <div class="tour"><button id="start-tour">Take the five-stop tour</button><button id="previous-stop" hidden>Previous stop</button><button id="next-stop" hidden>Next stop</button><button id="end-tour" hidden>Leave tour</button><span id="tour-progress" role="status"></span></div>
 <p id="tour-note"></p>
 <details><summary>How to explore and what to look for</summary>
 <p>As in HyperTIES: <strong>click</strong> a highlighted link to see its short description; <strong>double-click</strong> it (or press Follow link) to go there. With the keyboard, Tab to a link and press Enter once to see its description, twice to follow. Browser Back retraces your path. Search includes original aliases. Dotted labels indicate destinations we have not resolved.</p>
-<p>Original prose is not rewritten. The reading view can hide command tokens for readability; the original byte-view text and source checksums remain below each article. Graphics, fonts, exact page layouts and the remaining codec are still research work. This is not the original DOS interface.</p>
+<p>Original prose is not rewritten. The reading view can hide command tokens for readability; the original byte-view text and source checksums remain below each article. Both book codecs are recovered. Graphics, fonts and exact page layouts are still research work. This is not the original DOS interface.</p>
 <p>Back and Forward retrace this reader's browsing history. Previous/Next article browse the original collection index order (available records, including labeled book recovery gaps). Index focuses the searchable catalog. Museum articles absent from the original index are labeled and appended alphabetically.</p>
 <p>We would especially value your memories of the joke's authorship and first demonstration, the book's exact edition, and how the museum's thematic, chronological and map navigation worked.</p>
 </details>
@@ -29,7 +29,7 @@ body{background:light-dark(#faf8f2,#181d23);color:light-dark(#263544,#e5e9ee)}h1
 <button id="museum">Jewish Heritage &amp; Holocaust</button>
 <button id="joke">Explore the hyper-joke</button>
 </nav>
-<details><summary>Recovery status and interpretation</summary><p class="note">Research prototype, not an emulation of the original interface. Classic text is displayed using an explicit CP437 access profile; historical encoding is still under investigation. Graphics, fonts and commands are not executed. Missing records and uncertain links remain visible. The separate personal genealogy database is not included in this reading room, and this file contains no Dropbox access link or credentials.</p></details>
+<details><summary>Recovery status and interpretation</summary><p class="note">All 248 book records are decoded: 218 LZW and 30 adaptive arithmetic. Research prototype, not an emulation of the original interface. Classic text is displayed using an explicit CP437 access profile; historical encoding is still under investigation. Graphics, fonts and commands are not executed. Uncertain links remain visible. The separate personal genealogy database is not included in this reading room, and this file contains no Dropbox access link or credentials.</p></details>
 </header>
 <p id="error" role="alert"></p>
 <main>
@@ -92,7 +92,15 @@ element('provenance').textContent=a.source+' | '+a.id+' | '+a.evidence;
 element('preview').hidden=true;element('body').replaceChildren();
 element('raw').textContent=a.body===null?a.issue:a.body+'\n\n'+JSON.stringify({references:a.links,description:a.description},null,2);
 navigation();
-if(a.body===null){element('body').textContent='This indexed record has not been recovered. '+a.issue;return;}
+if(a.body===null){element('body').textContent='This article has not yet been decoded. The technical diagnostic is available under recovery metadata below.';return;}
+if(!a.body.trim()){
+ const note=document.createElement('p');note.textContent='The original record has no body text.';
+ element('body').append(note);
+ if(a.description){const heading=document.createElement('strong');heading.textContent='Original short description';
+ const description=document.createElement('p');description.textContent=accessText(a.description);
+ element('body').append(heading,description);}
+ return;
+}
 let cursor=0;
 const base=a.bodyOffset;
 for(const link of a.links){

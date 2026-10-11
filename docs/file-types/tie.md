@@ -6,7 +6,7 @@
 | Property | Current assessment |
 |---|---|
 | Classification | bespoke |
-| Definition status | Mixed: tested indexes/LZW and unresolved stores |
+| Definition status | Mixed: tested indexes/LZW/arithmetic and unresolved stores |
 | Confidence | Role-dependent |
 
 ## Identification and observed structure
@@ -24,6 +24,7 @@ This is an evidence-backed working definition, not a complete vendor specificati
 
 - [INDEX.TIE legacy index](index-tie.md)
 - [BIGFILE.TIE packed articles](bigfile-tie.md)
+- [Adaptive arithmetic packed-article codec](arithmetic.md)
 - [BIGRAPH.TIE packed graphics](bigraph-tie.md)
 - [GINDEX.TIE graphics index](gindex-tie.md)
 - [REFER.TIE authoring references](refer-tie.md)
@@ -40,7 +41,7 @@ This is an evidence-backed working definition, not a complete vendor specificati
 
 ## Tool work item
 
-P0: filename/signature dispatch, second book codec, graphics extraction and reference schemas.
+P0: graphics extraction, reference schemas and additional corpus validation; both book codecs are recovered.
 
 ## Definition work still required
 

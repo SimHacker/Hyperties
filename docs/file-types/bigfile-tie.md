@@ -6,12 +6,12 @@
 | Property | Current assessment |
 |---|---|
 | Classification | bespoke |
-| Definition status | Tested subset; second codec unresolved |
-| Confidence | High for supported subset |
+| Definition status | Both book codecs tested |
+| Confidence | Unresolved schema |
 
 ## Identification and observed structure
 
-For the verified classic codec, each indexed record has 12 raw header bytes followed by LSB-first LZW, clear=256/end=257, widths 9..12 and dictionary start=258. 218 HHO records decode; 30 use an unresolved second codec. 49 ACM comparisons match loose originals.
+Each tested indexed record has 12 raw header bytes followed by LSB-first LZW (flag 03) or 16-bit adaptive arithmetic coding (flag 02). All 248 book records decode: 218 LZW and 30 arithmetic. 49 ACM LZW and 113 CACM arithmetic comparisons match loose originals exactly.
 
 This is an evidence-backed working definition, not a complete vendor specification. A suffix or generic magic match is not enough to select a decoder. Do not modify original bytes to make them fit a hypothesis.
 
@@ -31,7 +31,7 @@ This is an evidence-backed working definition, not a complete vendor specificati
 
 ## Tool work item
 
-P0: identify the second codec without assuming unsupported records are raw or corrupt.
+P0: validate additional corpus variants and retain explicit flag dispatch.
 
 ## Definition work still required
 

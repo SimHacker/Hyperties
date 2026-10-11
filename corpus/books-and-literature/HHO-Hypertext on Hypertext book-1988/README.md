@@ -11,7 +11,7 @@ Packed book database with chapter navigation, concepts, personalities, design ex
 
 ## Recovery status
 
-Crown jewel: 248 indexed records, 218 decoded by the verified LZW reader, 30 using an unresolved second codec. Exact edition/title to confirm with Ben.
+Crown jewel: all 248 indexed records decoded: 218 LZW and 30 adaptive arithmetic. Exact edition/title to confirm with Ben.
 
 This catalog contains **42 retained files / 642,456 bytes**, excluding navigation documents and Git-ignored operational/private material. Counts include descendants. Original basenames and bytes are preserved; programs and imported external actions are not executed by the modern readers.
 

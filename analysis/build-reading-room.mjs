@@ -11,7 +11,7 @@ const catalog = JSON.parse(fs.readFileSync(path.join(here, 'semantic-catalog.jso
 const articles = book.articles.map(a => ({ collection: 'book', id: a.basename, title: a.title, aliases: a.aliases,
   body: a.body, bodyOffset: 0, description: a.description,
   source: `${book.source} bytes ${a.offset}..${a.offset + a.length}`,
-  evidence: `Decoded SHA-256 ${a.decodedSha256}`,
+  evidence: `${a.codec} codec | Decoded SHA-256 ${a.decodedSha256}`,
   links: a.links.map(l => ({ ...l, offset: l.offset - a.bodyStart })) }));
 const index = catalog.indexes.find(i => originalPath(i.path).startsWith('HHO-') && i.dialect === 'plus-1.0');
 for (const issue of book.issues) {

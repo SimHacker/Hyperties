@@ -27,8 +27,8 @@ every label as bibliographically identical.
   Those screen graphics are not a substitute for decoded book articles.
 - A distinct [classic browser](../corpus/books-and-literature/HHO-Hypertext%20on%20Hypertext%20book-1988/browser.exe)
   remains for optional format/behavior research.
-- **218 articles now decoded** by the [verified LZW reader](packed-format.md);
-  30 indexed records use an unresolved second codec and remain explicit gaps.
+- **All 248 articles decoded**: 218 by the [verified LZW reader](packed-format.md)
+  and 30 by the [recovered adaptive arithmetic coder](arithmetic-format.md).
 
 ### Hypertext joke: a concrete restoration target
 
@@ -122,7 +122,7 @@ These are future interview prompts, not a request to block current work:
 
 1. Refine the local navigable museum article map, with explicit recovery gaps.
 2. Compare the decoded, linked hyper-joke with original interaction behavior.
-3. Complete the 30 remaining book records and graphic assets.
+3. Recover the book's graphic assets; all 248 text records are now decoded.
 4. An old/new museum edition comparison rather than another duplicate dump.
 5. A small public historical showcase backed by tested format readers and
    original-to-modern provenance maps.

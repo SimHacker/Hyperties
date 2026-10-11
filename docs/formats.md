@@ -18,7 +18,7 @@ schemas are documented separately rather than conflating the extension.
 | `.FIL` | Article records | Header, sections, classic links and many reference lists parsed |
 | `INDEX.NEW` | Plus-1.0 index | Titles, basenames, flags, packed ranges and aliases parsed |
 | `INDEX.TIE` | Legacy Entry/File index | Different schema; titles, basenames, status bytes and aliases parsed |
-| `BIGFILE.TIE` | Packed articles | Classic LZW subset decoded; second codec unresolved |
+| `BIGFILE.TIE` | Packed articles | LZW and adaptive arithmetic decoded; all 248 book records recovered |
 | `BIGRAPH.TIE`, graphic indexes | Packed graphics | Retained; extraction/schema work ahead |
 | `.STL`, `.GRB` | Styles and graphical-link definitions | Readable script examples identified; full grammar and binary forms unresolved |
 | `.ELB`, `.HDT` and `.H*` companions | Later databases and indexes | Roles and structural clues observed; complete decoding ahead |
@@ -85,8 +85,12 @@ sections.
 comparable ACM records match original loose files byte-for-byte. A real joke
 record also decodes in the browser with no `Buffer` global.
 
-Thirty book records do not use this tested stream. They remain unsupported,
-not silently decoded, dropped or labelled corrupt.
+Thirty book records do not use LZW. They use a now-recovered **16-bit adaptive
+arithmetic codec**, also reading bits LSB-first. It uses frequency-ranked symbols,
+an explicit end rank of 258 and adaptive increments of 8 or 1. All 30 decode
+successfully, and 113 CACM records match their loose originals byte-for-byte.
+See the [arithmetic specification](../analysis/arithmetic-format.md) and
+[portable TypeScript decoder](../tools/src/arithmetic.ts).
 
 ## Syntax versus semantics
 
@@ -101,7 +105,7 @@ universal assumption for every dialect.
 
 ## Verification status
 
-Thirteen tests cover malformed headers, index dialects, range arithmetic,
+Sixteen tests cover malformed headers, index dialects, range arithmetic,
 markup positions, corpus counts, LZW coverage, byte-identical source recovery
 and browser/Node compatibility. A separate archive verifier reconciles approved
 removals and checks retained historical file hashes.

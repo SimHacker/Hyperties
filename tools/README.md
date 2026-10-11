@@ -26,6 +26,8 @@ the toolchain dependencies; there are no runtime npm dependencies.
 - [records.ts](src/records.ts): byte-preserving text views, little-endian article
   headers, both classic index dialects, range validation, partial markup scanner.
 - [packed.ts](src/packed.ts): the observed classic LZW packed-article codec.
+- [arithmetic.ts](src/arithmetic.ts): recovered adaptive arithmetic codec,
+  validated against 113 exact CACM originals and all 30 former book gaps.
 - [encoding.ts](src/encoding.ts): an explicit CP437 access-copy display profile,
   not a claim that every historical file uses that encoding.
 - [index.ts](src/index.ts): shared exports.
@@ -71,12 +73,12 @@ node analysis/build-reading-room.mjs
 ```
 
 Open local `analysis/reading-room.html`. It contains 248 indexed book records
-(218 recovered, 30 explicitly unsupported) and 402 museum articles. Generated
+(248 recovered: 218 LZW and 30 arithmetic) and 402 museum articles. Generated
 exports/HTML are Git-ignored access artifacts, not replacements for originals.
 
-Without `--allow-partial`, book recovery returns a nonzero status if any records
-remain unsupported; the flag intentionally permits a labeled incomplete access
-prototype. Diagnostics remain in the export and command output.
+Book recovery now succeeds without `--allow-partial`: all 248 records decode.
+The flag remains available for explicitly labeled incomplete exports of future
+unsupported variants; diagnostics remain in the export and command output.
 
 The Node filesystem/catalog/export adapters are still JavaScript modules under
 `analysis/`; their decoding logic delegates to this shared TypeScript core.

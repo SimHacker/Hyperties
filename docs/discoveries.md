@@ -43,12 +43,18 @@ edition and authorship remain questions to confirm, not labels to silently merge
 | Indexed records | 248 |
 | Stored article bytes | 206,205 |
 | Decoded classic LZW records | 218 |
-| Records using unresolved codec | 30 |
+| Decoded adaptive arithmetic records | 30 |
+| Total recovered records | 248 |
 | Hyper-joke records decoded | 6 |
 
 The index's offset/length ranges exactly partition the packed store. Its
 chapter-like navigation covers concepts, applications, design, implementation,
 authoring, systems, personalities, possibilities and future developments.
+
+The former 30 recovery gaps were solved by static analysis of the historical
+browser and known-plaintext comparisons: [adaptive arithmetic format](../analysis/arithmetic-format.md).
+The decoder matches 113 CACM originals byte-for-byte, and the
+[live reading room](https://hyperties.org/archive/reading-room/) now includes every book record.
 
 The next goal is a readable, searchable access edition that keeps short
 descriptions, aliases, links and original graphics—not merely a flattened text
@@ -102,7 +108,7 @@ institutional details should be confirmed with Ben.
 
 ## Next recovery milestones
 
-1. Identify and test the second book codec against known source bytes.
+1. Extend validation of the recovered arithmetic codec to additional corpora.
 2. Decode original graphics and fonts for the book and museum.
 3. Recover later museum records and compare editions article by article.
 4. Validate previews, layouts and reveal timing against screenshots, recordings

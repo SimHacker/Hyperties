@@ -91,7 +91,8 @@ or decoded article lengths.
 The observed leading words of packed data can resemble a loose article header,
 but that does not mean the full store can be read by the loose `.FIL` parser.
 The LZW subset now has a [tested decoder and local access export](packed-format.md).
-Thirty book records still use an unresolved second codec.
+The other 30 book records now decode with the
+[adaptive arithmetic codec](arithmetic-format.md), validated against 113 CACM originals.
 
 ## `INDEX.TIE`: legacy Entry/File index
 
@@ -138,7 +139,7 @@ describe the same articles twice; they are not a unique-article count.
 Five CHIM paths remain explicit parse issues. The catalog does not scan raw
 private genealogy or export full article text.
 
-Next specifications should cover the second packed-record codec, `.HDT` record
+Next specifications should extend arithmetic-codec fixtures and cover `.HDT` record
 boundaries and IDs, stylesheet/graphic-object grammar, CP437/Japanese encodings,
 fonts and media. Each definition should come with a minimal synthetic fixture,
 a real corpus check, and documented uncertainty.

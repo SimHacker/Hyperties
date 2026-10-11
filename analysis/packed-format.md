@@ -42,27 +42,27 @@ decoded section offsets to slice compressed bytes.
 
 This gives stronger validation than merely generating recognizable prose.
 
-## Unsupported second codec
+## Second codec: now recovered
 
 The book has 30 additional records whose leading status/flag byte is `02`,
 rather than `03` for the 218 records successfully decoded here. They do not begin
-with the LZW clear code at the tested position. Their codec is **not identified
-yet**; do not call them uncompressed or corrupt.
+with the LZW clear code at the tested position. They use
+[adaptive arithmetic coding](arithmetic-format.md), not LZW.
 
-The remaining set includes ASCII, brief descriptions, buttons, icons, hyperhumor
-and other concepts. The LZW decoder explicitly rejects them. The book export
-retains their indexed identities and errors, and the reading room presents them
-as unrecovered records rather than omitting them.
+This set includes ASCII, brief descriptions, buttons, icons, hyperhumor and other
+concepts. All 30 now decode successfully. Recovery dispatches by the observed
+index flags rather than silently retrying arbitrary codecs. The LZW-only API
+continues to reject arithmetic streams.
 
-Next steps: compare these records with same-format loose inputs, inspect graphics
-and status conventions, and test a second codec against known bytes. Do not
-retrospectively remove packed originals because most of the text can now be read.
+The arithmetic reader matches 113 CACM loose records exactly. The book is now
+fully recovered at the record/text level: 218 LZW plus 30 arithmetic records.
+Graphics, command semantics and later database families remain separate tasks.
 
 ## Reading-room interpretation
 
 The prototype preserves raw markup in a disclosure panel and shows unimplemented
 commands visibly in the access body. It supports title/alias search, article
-navigation, previews on keyboard focus/hover, fragment history and explicit
+navigation, click-for-definition/double-click-to-follow, browser history and explicit
 unresolved targets.
 
 It does **not** emulate original page layout, exact reveal timing, fonts,

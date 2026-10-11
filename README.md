@@ -42,14 +42,16 @@ are excluded.
 
 ## Current recovery
 
-- **218 of 248 book records decoded**, including the six hyper-joke records and
-  their branching links; 30 use an unresolved second codec.
+- **All 248 book records decoded**: 218 LZW and 30 adaptive arithmetic,
+  including the six hyper-joke records and their branching links.
 - **402 earlier museum articles parsed**, preserving thematic and chronological
   navigation evidence.
 - **49 comparable ACM records decoded byte-for-byte** against original sources.
 - Shared **TypeScript** parsers and LZW decoding work in Node and browsers.
-- **13 tests pass**, covering source equality, malformed inputs, catalog coverage
+- **16 tests pass**, covering source equality, malformed inputs, catalog coverage
   and browser compatibility.
+- **113 CACM arithmetic records match loose originals byte-for-byte**.
+  See the [recovered arithmetic format](analysis/arithmetic-format.md).
 
 A local reading-room prototype already supports linked reading, search and
 previews. It is not yet a faithful recreation of historical layouts, graphics,

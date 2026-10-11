@@ -1,7 +1,7 @@
 # <!-- Generated collection documentation: analysis/document-collections.mjs -->
 status: recovering
 what: "Packed book database with chapter navigation, concepts, personalities, design examples and the hypertext joke."
-why: "Crown jewel: 248 indexed records, 218 decoded by the verified LZW reader, 30 using an unresolved second codec. Exact edition/title to confirm with Ben."
+why: "Crown jewel: all 248 indexed records decoded: 218 LZW and 30 adaptive arithmetic. Exact edition/title to confirm with Ben."
 k_lines:
   activates:
     - HYPERTIES

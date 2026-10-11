@@ -72,7 +72,7 @@ zero current paths; no links expose ignored logs, settings or removed files.
 | [`.stl`](stl.md) | bespoke | 32 | 32 | 20953 | Text observed; binary unresolved |
 | [`.sys`](sys.md) | bespoke | 18 | 18 | 1349 | Observed text subset |
 | [`.tgf`](tgf.md) | unknown | 3 | 3 | 8649 | Definition placeholder |
-| [`.tie`](tie.md) | bespoke | 106 | 106 | 4029692 | Mixed: tested indexes/LZW and unresolved stores |
+| [`.tie`](tie.md) | bespoke | 106 | 106 | 4029692 | Mixed: tested indexes/LZW/arithmetic and unresolved stores |
 | [`.tif`](tif.md) | standard | 1 | 1 | 23020 | Recognized standard |
 | [`.txt`](txt.md) | standard | 48 | 48 | 48947 | Mixed text conventions |
 | [`.zip`](zip.md) | standard | 0 | 0 | 0 | Verified historical survey; packaging removed |
@@ -80,7 +80,8 @@ zero current paths; no links expose ignored logs, settings or removed files.
 ## Named schemas and non-suffix layers
 
 - [INDEX.TIE legacy index](index-tie.md): Tested subset.
-- [BIGFILE.TIE packed articles](bigfile-tie.md): Tested subset; second codec unresolved.
+- [BIGFILE.TIE packed articles](bigfile-tie.md): Both book codecs tested.
+- [Adaptive arithmetic packed-article codec](arithmetic.md): Tested corpus subset.
 - [BIGRAPH.TIE packed graphics](bigraph-tie.md): Definition placeholder.
 - [GINDEX.TIE graphics index](gindex-tie.md): Definition placeholder.
 - [REFER.TIE authoring references](refer-tie.md): Definition placeholder.
@@ -94,7 +95,7 @@ zero current paths; no links expose ignored logs, settings or removed files.
 
 ## Tool priorities
 
-1. **P0:** extend tested articles/indexes, recover the second book codec, later HDT/index family and packed graphics; implement PCX and stylesheet/graphic-region access.
+1. **P0:** extend tested articles/indexes, later HDT/index family and packed graphics; implement PCX and stylesheet/graphic-region access. Both book codecs are now recovered.
 2. **P1:** search structures, fonts, palettes, animations, ARC verification, imports and encoding-aware access.
 3. **P2/P3:** print reconstruction, static runtime evidence and scratch/settings investigation only when needed.
 

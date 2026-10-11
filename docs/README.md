@@ -33,8 +33,8 @@ recreation of historical fonts, graphics or page timing.
 1. **[The hypertext joke](discoveries.md#the-hypertext-joke):** six recovered
    records, four alternate responses, and further links. The interaction is part
    of the joke. [Try it](https://hyperties.org/archive/reading-room/#book:EXAMPLFP).
-2. **[The book](discoveries.md#hypertext-on-hypertext):** 218 of 248 indexed
-   records decoded; 30 remain explicit recovery tasks.
+2. **[The book](discoveries.md#hypertext-on-hypertext):** all 248 indexed
+   records decoded, using LZW and the newly recovered adaptive arithmetic codec.
 3. **[The museum](discoveries.md#jewish-heritage-and-the-holocaust):** 402 earlier
    articles, with thematic and chronological navigation preserved as evidence.
 4. **[The formats](formats.md):** tested byte-level definitions, including the
@@ -58,7 +58,7 @@ connect the source bytes to tested recovery methods.
 - Which apparently absent targets were placeholders, and which were working
   content we should search for?
 - Are there source files, compression notes, screenshots or recordings that
-  could explain the second codec and the later museum format?
+  could help with later museum formats or confirm the recovered arithmetic coder?
 - Which other unusual experiments deserve their own restoration?
 
 ## What is verified
@@ -66,6 +66,7 @@ connect the source bytes to tested recovery methods.
 | Result | Evidence |
 |---|---|
 | 218 book records recovered by the classic LZW decoder | Valid article section boundaries and delimiters |
+| Remaining 30 book records recovered by adaptive arithmetic decoding | Valid sections; decoder also matches 113 CACM loose originals exactly |
 | 49 comparable ACM packed records recovered exactly | Byte-for-byte equality with original loose article files |
 | 402 earlier museum articles structurally parsed | Byte-offset checks and preserved source records |
 | Node and browser use the same TypeScript decoding core | Browser decoding tested with no Node `Buffer` API |
@@ -74,7 +75,7 @@ connect the source bytes to tested recovery methods.
 ## What is not claimed
 
 We have not recreated exact historical screens, fonts, page breaks, graphics or
-reveal timing. The remaining codec, later museum stores and some target mappings
+reveal timing. Both book codecs are recovered; later museum stores and some target mappings
 are unresolved. Historical text is not silently rewritten and missing content
 is not invented.
 

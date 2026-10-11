@@ -4,7 +4,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { FormatError, parseIndex, checkPackedRanges, scanMarkup } from './records.mjs';
-import { decodePackedArticle } from './packed.mjs';
+import { decodePackedArticle, decodeArithmeticArticle } from './packed.mjs';
 import { relocatedPath } from './layout.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url)), root = path.dirname(here);
@@ -24,7 +24,10 @@ for (const r of records) for (const name of [r.title, r.basename, ...r.aliases])
 const articles = [], issues = [];
 for (const r of records) {
   try {
-    const { decoded, article: a, consumedBits, trailingBits } = decodePackedArticle(packed.subarray(r.offset, r.offset + r.length));
+    const codec = r.flagsHex.startsWith('03') ? 'lzw' : r.flagsHex.startsWith('02') ? 'arithmetic' : null;
+    if (!codec) throw new FormatError('PACKED_FLAGS', `Unsupported packed-record flags: ${r.flagsHex}`);
+    const result = (codec === 'lzw' ? decodePackedArticle : decodeArithmeticArticle)(packed.subarray(r.offset, r.offset + r.length));
+    const { decoded, article: a, consumedBits, trailingBits } = result;
     const markup = scanMarkup(a.body, a.offsets[2]);
     const aligned = markup.links.length > 0 && markup.links.every(l => l.syntax === 'tilde') && markup.links.length === a.referenceNames.length;
     const links = markup.links.map((l, i) => {
@@ -36,13 +39,14 @@ for (const r of records) {
     articles.push({ ...r, heading: a.heading, description: a.description, body: a.body,
       referenceNames: a.referenceNames, fifthSection: a.fifthSection, trailer: a.trailer,
       decodedBytes: decoded.length, decodedSha256: crypto.createHash('sha256').update(decoded).digest('hex'),
-      bodyStart: a.offsets[2], separators: a.sections.map(s => s.hasSeparator), consumedBits, trailingBits, ...markup, links });
+      bodyStart: a.offsets[2], separators: a.sections.map(s => s.hasSeparator), codec,
+      paddingBits: 'paddingBits' in result ? result.paddingBits : 0, consumedBits, trailingBits, ...markup, links });
   } catch (error) {
     if (!(error instanceof FormatError)) throw error;
     issues.push({ basename: r.basename, code: error.code, message: error.message });
   }
 }
-const result = { source: `${directory}/bigfile.tie`, decoder: '12-byte prefix + LSB-first LZW, clear 256/end 257, widths 9..12',
+const result = { source: `${directory}/bigfile.tie`, decoder: '12-byte prefix + flag-dispatched LSB-first LZW (03) or adaptive arithmetic (02)',
   articles, issues, note: 'Local access export. Historical text is not corrected; Latin-1 byte view is not final display encoding. Link candidates are not runtime-verified.' };
 fs.writeFileSync(path.join(here, 'recovered-book.json'), JSON.stringify(result, null, 2) + '\n');
 console.log(JSON.stringify({ indexed: records.length, recovered: articles.length, issues,

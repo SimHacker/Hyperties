@@ -30,7 +30,7 @@ are derived from them.
 
 | Layer | Location | Platform |
 |---|---|---|
-| Format core: articles, indexes, markup, LZW, CP437 profile | [tools/src](../tools/src) | Platform-independent TypeScript; tested in Node and in a `Buffer`-free browser context |
+| Format core: articles, indexes, markup, LZW, adaptive arithmetic, CP437 profile | [tools/src](../tools/src) | Platform-independent TypeScript; tested in Node and in a `Buffer`-free browser context |
 | Browser bundle | `tools/dist/browser.js` (generated) | Browser global `HypertiesFormats` |
 | Inventory, catalog, recovery, documentation generators, verification | [analysis/*.mjs](../analysis/README.md) | Node adapters; decoding delegates to the shared core |
 | Original-to-current path map | [analysis/layout.mjs](../analysis/layout.mjs) | Pure data and functions; candidate to move into the core |
