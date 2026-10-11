@@ -328,6 +328,23 @@ HCI, libraries and museums through a common set of reusable interactive exhibits
 
 ### A reusable preservation pipeline: PIXIE, UNIX, Lisp and beyond
 
+**Cellular automata belong here too.** Norm Margolus has given me permission
+and encouragement to make interactive courseware based on chapters of his
+CAM6 book. That is a specific collaboration and permission for this educational
+work, not a blanket claim about republishing every related artifact.
+I want to bring those explanations and experiments into the same environment:
+a cellular-automata device alongside the PDP-7, Type 340 display, proposed
+Turing-machine device and tiny-titan network/mainframe environment, with
+interactive chapters that let readers inspect, change and run the systems.
+The integrated courseware is a direction to develop, not an exhibit we claim
+is already complete.
+
+I was embedding cellular automata in HyperTIES and NeWS ages ago. This is a
+continuation of that work, not a newly invented agenda. The difference is how
+much more leverage and capability we have now: portable browser tools,
+connected emulators, reusable publishing infrastructure and help doing the
+implementation and recovery work.
+
 We already have [PDP-7 UNIX running in the browser](https://hyperties.org/cabinet/unix/),
 alongside Heinz's graphics system. Another project I want to pursue is a PDP-1
 emulator running **L. Peter Deutsch's Lisp interpreter**, with links back to
@@ -356,12 +373,29 @@ people can explore other restored systems. The payoff is not just executing
 old code, but connecting code, papers, people, machines and ideas in a form
 others can study, teach with and extend.
 
+### More leverage, not outsourced intentions
+
+The role of the LLM in this work is not to plan, design or think on our behalf.
+The goals, historical relationships and design intentions come from people:
+the original authors and researchers, the collaborators helping us now, and
+decades of my own work with these systems. Their judgment and experience are
+not interchangeable with generated suggestions.
+
+What the tools offer is bandwidth for work we could not get to ourselves
+over those decades: transcription, conversion, implementation, cross-referencing,
+testing and documentation. That assistance can turn long-held ideas into
+working, inspectable artifacts, but its output still needs evidence, review
+and verification. People remain responsible for the interpretation, priorities,
+permissions and design decisions. We have more ability to carry the work
+through—not a reason to surrender its meaning or direction.
+
 ### Support and collaboration across the restoration projects
 
 Ben, could you help me think about **support and collaboration for this whole
 family of historical restoration projects**—HyperTIES and the museum database,
 Heinz's PIXIE and the PDP-7 environment, Turing machines and philosophy courseware,
-UNIX, the proposed PDP-1 Lisp restoration, touchscreen interaction demonstrations,
+CAM6 cellular-automata courseware, UNIX, the proposed PDP-1 Lisp restoration,
+touchscreen interaction demonstrations,
 and the shared tools for accessible, embodied historical exhibits?
 These are connected efforts, not separate requests to fund individual ports.
 I would value your advice on institutions, grants, collaborators and introductions

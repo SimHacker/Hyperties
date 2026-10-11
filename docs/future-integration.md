@@ -46,6 +46,18 @@ nuggets is a natural next step.
 
 ## Keep the layout open
 
+Don reports permission and encouragement from Norm Margolus to develop
+interactive courseware based on chapters of his CAM6 book. A cellular-automata
+device and its educational pages could join the PDP-7, Type 340, proposed
+Turing-machine device and tiny-titan network/mainframe environment. This
+continues Don's earlier cellular-automata embedding in HyperTIES and NeWS;
+the integrated courseware is not claimed complete. Preserve the scope of
+permission and attribution for contributed material.
+The [discussion for Ben](README.md#a-reusable-preservation-pipeline-pixie-unix-lisp-and-beyond)
+also explains [the role of modern assistance](README.md#more-leverage-not-outsourced-intentions):
+people set the intentions and exercise design judgment; tools supply additional
+capacity for recovery and implementation, with review and verification.
+
 The broader mission is a reusable preservation pipeline spanning PIXIE,
 PDP-7 UNIX, Turing-machine teaching materials and a proposed PDP-1 emulator
 for L. Peter Deutsch's Lisp interpreter. The
