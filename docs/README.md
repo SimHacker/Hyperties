@@ -382,7 +382,10 @@ decades of my own work with these systems. Their judgment and experience are
 not interchangeable with generated suggestions.
 
 What the tools offer is bandwidth for work we could not get to ourselves
-over those decades: transcription, conversion, implementation, cross-referencing,
+over those decades—**things we had already planned and designed, but were
+frustrated before we could finish implementing them**. This is not just help
+generating new possibilities; it is a chance to complete work whose intentions
+and designs were already ours. That includes transcription, conversion, implementation, cross-referencing,
 testing and documentation. That assistance can turn long-held ideas into
 working, inspectable artifacts, but its output still needs evidence, review
 and verification. People remain responsible for the interpretation, priorities,
