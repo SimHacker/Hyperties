@@ -73,8 +73,8 @@ are excluded.
   navigation evidence.
 - **49 comparable ACM records decoded byte-for-byte** against original sources.
 - Shared **TypeScript** parsers and both packed codecs work in Node and browsers.
-- **16 tests pass**, covering source equality, malformed inputs, catalog coverage
-  and browser compatibility.
+- **16 format/catalog tests and 3 speech-control tests pass**, covering source
+  equality, malformed inputs, browser compatibility and opt-in speech behavior.
 - **113 CACM arithmetic records match loose originals byte-for-byte**.
   See the [recovered arithmetic format](analysis/arithmetic-format.md).
 

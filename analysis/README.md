@@ -115,8 +115,9 @@ catalog counts and private-directory exclusions.
 The LZW iteration recovered 218 book articles including the six hyper-joke
 records, with 49 byte-for-byte ACM cross-checks. The subsequent
 [adaptive arithmetic recovery](arithmetic-format.md) solved all 30 remaining
-records and matches 113 CACM originals byte-for-byte. Sixteen tests now cover
-records, indexes and both codecs. The generated reading room presents all 650
+records and matches 113 CACM originals byte-for-byte. Sixteen tests cover
+records, indexes and both codecs; three additional tests cover the reading
+room's opt-in definition speech. The generated reading room presents all 650
 records across the book and museum, with no remaining book decoding gaps.
 [Shared TypeScript core](../tools/README.md) is used in Node and
 bundled into the browser; historical-file inventories exclude `tools/` as well

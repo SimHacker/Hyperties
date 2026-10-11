@@ -14,6 +14,12 @@ This is an October 2026 work-in-progress, not a claim of complete restoration.
 **[Open the HyperTIES reading room](https://hyperties.org/archive/reading-room/)**
 in any browser — no account or installation needed. Click highlighted links to
 see their short descriptions; double-click to follow. Hover does nothing.
+Enable **Read link definitions aloud on single click** to hear that same
+description through your browser's speech synthesis. It is off by default;
+another selection or navigation stops the previous speech. It uses no microphone,
+and unsupported browsers retain the text-only interaction. Voice processing
+depends on the browser and operating system. Speech recognition is still a
+future enhancement, not part of this control.
 Back and Forward retrace your browsing history. Previous/Next article browse
 the original index order. All book records are decoded; unresolved destinations
 remain labeled. Index focuses the
@@ -252,9 +258,11 @@ keyboard and alternative input, screen-reader access, understandable controls,
 and optional rather than mandatory animation. **Speech synthesis and speech
 recognition should be part of that access layer**, following the PDP-7 console's
 example: it can speak output and accept dictated input even though the original
-machine offered neither. For HyperTIES, we could offer spoken articles and link
+machine offered neither. The reading room now offers opt-in speech synthesis
+for a link's definition when it is single-clicked. Beyond that, we could offer spoken articles and link
 descriptions, dictated searches, and voice-operated navigation, alongside touch
-and keyboard controls. These are proposed modern enhancements, not claims about
+and keyboard controls. Beyond the implemented definition speech, these are
+proposed modern enhancements, not claims about
 the historical museum interface. Speech should be opt-in, with visible feedback,
 clear microphone consent and non-speech alternatives; recognition availability
 and any external processing should be explicit.
