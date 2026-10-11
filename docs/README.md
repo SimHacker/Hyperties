@@ -373,6 +373,45 @@ people can explore other restored systems. The payoff is not just executing
 old code, but connecting code, papers, people, machines and ideas in a form
 others can study, teach with and extend.
 
+### Historical content as a forcing function
+
+There are two contributions here: **the tools we develop and give back to the
+community, and the historical content that forces us to design and develop
+those tools properly**. The content is not decoration added after the platform
+is finished. It supplies requirements, exposes missing capabilities and gives
+us something concrete to measure against.
+
+Having 128 pages of PIXIE source code makes a very different demand on a PDP-7
+and Type 340 emulator than a handful of synthetic examples. A real program
+exercises the processors, devices, data structures and interaction together.
+Its listing anchors the recovery and source maps; its behavior tests whether
+the machine is useful for the work it was built to do.
+
+The vast HyperTIES collection serves the same purpose for the preservation
+pipeline and the new, general-purpose HyperTIES and webtop interface we are
+building on top of it. Actual articles, previews, links, graphics, editions,
+documents and applications force us to handle more than an idealized format.
+Original bytes, comparable source records and recovered relationships give us
+measurable checks; historical interaction and author feedback give us questions
+that byte equality alone cannot answer.
+
+The modern direction draws on gwern.net, pie menus, tabbed windows, HyperLook,
+HyperCard and HyperTIES. Their content, demos and applications are forcing
+functions too: transclusion, embedded tools, navigation and window management
+should earn their place by supporting real work, rather than remain a list of
+features in a speculative framework.
+
+This is how I worked with **SimCity and HyperLook**: SimCity was a forcing
+function for HyperLook, and I developed them together, alongside the multimedia
+infrastructure they needed, including an audio mixer server and a shared-memory
+animation library. The application and the tools shaped one another.
+
+That is the approach here as well. Preserve and use substantial historical
+material; build the capabilities it demands; test against it; return reusable
+tools and documented restorations to the community. The full modern
+HyperTIES/webtop is an ongoing development direction, not something the current
+archive reading room claims to have completed.
+
 ### More leverage, not outsourced intentions
 
 The role of the LLM in this work is not to plan, design or think on our behalf.

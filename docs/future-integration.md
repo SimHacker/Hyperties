@@ -46,6 +46,16 @@ nuggets is a natural next step.
 
 ## Keep the layout open
 
+Historical material is a **forcing function**, not merely a showcase for tools
+designed independently of it. The
+[discussion for Ben](README.md#historical-content-as-a-forcing-function)
+connects the 128-page PIXIE listing, the HyperTIES corpus and Don's simultaneous
+SimCity/HyperLook development. Substantial programs, documents, demos and apps
+should shape and test the preservation pipeline and modern general-purpose
+HyperTIES/webtop. Inspirations include gwern.net, pie menus, tabbed windows,
+HyperLook, HyperCard and HyperTIES; their practical demands should guide reusable
+capabilities rather than justify a speculative feature inventory.
+
 Don reports permission and encouragement from Norm Margolus to develop
 interactive courseware based on chapters of his CAM6 book. A cellular-automata
 device and its educational pages could join the PDP-7, Type 340, proposed

@@ -24,6 +24,11 @@ expresses a shared intention: honor the originals while making access,
 interaction and possibilities better than the old technology allowed.
 Historical fidelity does not require perpetuating historical limitations.
 
+**[Historical content as a forcing function](docs/README.md#historical-content-as-a-forcing-function)**
+— real programs and collections shape the tools and provide measurable tests,
+from PIXIE's listing to this archive and the modern HyperTIES/webtop, continuing
+Don's paired development of SimCity and HyperLook.
+
 **[Heinz, museums, and bringing the people back into the picture](docs/README.md#heinz-museums-and-bringing-the-people-back-into-the-picture)**
 — Don's related PIXIE/PDP-7 restoration, the free-use invitation to museums,
 and plans to recreate machines, sounds and embodied interaction with animated
