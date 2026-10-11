@@ -111,6 +111,70 @@ Then come smaller independently readable publications and comparisons between
 editions. Successful decompression is a milestone, not the completion of
 historical restoration.
 
+## Heinz, museums, and bringing the people back into the picture
+
+*A note from Don about the larger mission.*
+
+Ben, this is part of the same work I am doing with Heinz Lemke and his early
+interactive graphics code. We have brought his PIXIE system back into a
+browser-based PDP-7 and Type 340 environment, working from the surviving listing
+and using his feedback to understand how it was actually used. The
+[PIXIE restoration story](https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/PIXIE-RESTORATION.md)
+connects the code, historical sources and recovery work. You can
+[try the machine in your browser](https://hyperties.org/cabinet/symelec/).
+
+I want to work with museums so this can become a freely usable companion to
+their physical collections: a machine visitors can operate online, an exhibit
+they can host, and a way to explore software while the real hardware rests or
+is being restored. **Museums can use the software for free.** In return, I am
+asking for help with the evidence: photographs, measurements, recordings,
+disk images, tapes, listings and code we have permission to use. This is an
+invitation, not a claim that museum partnerships are already arranged. The
+[open letter to museums](https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/FOR-MUSEUMS.md)
+sets out the offer and the kinds of material that would help.
+
+The ambition is a high-fidelity audiovisual recreation of the *computing
+environment*, not just a rectangle containing an emulator: the cabinets and
+devices, the CRT's curved glass and phosphor persistence, the keyboard and light
+pen, the Teletype and mechanical sounds, and even the AM radio through which
+the machine's activity can become audible. The
+[physical portrait plan](https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/PORTRAIT.md)
+and [AM radio project](https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/AM-RADIO.md)
+describe that direction. The complete physical scene is a goal, not something
+we are claiming to have finished.
+
+I also want animated Sims 1 characters, using
+[VitaMoo](https://vitamoo.space), my open-source TypeScript reimplementation of
+the Sims 1 animation system, to demonstrate the machines. A portrayal of Heinz
+can lean toward the screen, put the light pen against the glass, turn to the
+keyboard, and show how the hands and devices work together. These should be
+meaningful demonstrations driven by interaction with the running machine,
+not decorative characters gesturing beside an unrelated recording. The
+portrayals should be identified as portrayals, with historical sources and
+reconstructed behavior distinguished.
+
+**The physical arrangement is part of the interface.** Heinz has emphasized
+the draftsman's drawing board as a shared center of attention for collaborators.
+The CRT's size, position and tilt, where people stood or sat, and how they
+reached it with a pen all affect what collaboration and interaction mean.
+That makes me think of Mark Weiser's ubiquitous computing boards: the shared
+surface belongs in the social and physical setting, not only in a screenshot.
+This is a connection I want to explore, not a claim of direct historical lineage.
+
+Recreating the objects *and the humans* has real historical and educational
+value. It can explain an arm's reach, the effort of holding a pen, why controls
+were placed near the work, and how several people gathered around one drawing.
+Those are design facts a disembodied software simulation can easily lose.
+It is not gimmickry: the physical scene can make the ideas legible.
+
+**HyperTIES restoration and documentation belong to this same mission.**
+Recovering your records, previews, maps and paths is one part; understanding the
+authors, readers, installations and collaborations is another. We want to
+preserve the evidence, bring the people and ideas back into view, and offer
+possibilities the original technology could not. As the
+[Cabinet manifesto](https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/MANIFESTO.md)
+puts it, **tribute, accessibility and fun belong in the front seat.**
+
 ## What we would love to hear from you
 
 - What was the exact book title, edition and authorship?

@@ -24,6 +24,11 @@ expresses a shared intention: honor the originals while making access,
 interaction and possibilities better than the old technology allowed.
 Historical fidelity does not require perpetuating historical limitations.
 
+**[Heinz, museums, and bringing the people back into the picture](docs/README.md#heinz-museums-and-bringing-the-people-back-into-the-picture)**
+— Don's related PIXIE/PDP-7 restoration, the free-use invitation to museums,
+and plans to recreate machines, sounds and embodied interaction with animated
+operators. HyperTIES belongs to the same mission: tribute, accessibility and fun.
+
 Top-level layers: [corpus](corpus/README.md), [reference](reference/README.md),
 [docs](docs/README.md), [analysis](analysis/README.md) and [tools](tools/README.md).
 Use the [repository index](INDEX.md), [layout/path map](docs/layout.md),
