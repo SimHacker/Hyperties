@@ -392,6 +392,29 @@ and verification. People remain responsible for the interpretation, priorities,
 permissions and design decisions. We have more ability to carry the work
 through—not a reason to surrender its meaning or direction.
 
+This also connects to the convergence between you and **Pattie Maes** in the
+1997 direct-manipulation/interface-agents debate: automation can amplify people's
+capabilities while preserving understanding, control and responsibility; agents
+complement well-designed interfaces rather than replace them. The
+[discussion of the published debate](https://github.com/SimHacker/WillWrightShowForFood/blob/main/characters/ben-shneiderman/agents-debate-1997.md)
+links to the primary transcript and examines that agreement, rather than treating
+the debate as a permanent opposition.
+
+My manifesto,
+**[An interface to agency, not agents instead of an interface](https://github.com/SimHacker/moollm/blob/main/designs/INTERFACE-TO-AGENCY.md)**,
+develops that direction. The phrase is mine, not a quotation from you, and this
+connection is not a claim that you have endorsed my manifesto. People should
+be able to see, operate, inspect and correct the same systems that automation
+can act upon. Speech and chat add ways to interact; they should not hide the
+object of work or become the only route to a capability.
+
+For these restorations, that means keeping the document, running machine,
+source, controls and consequences available to the learner. An assistant can
+help recover a listing or operate a demonstration, but it should not replace
+the interface through which someone explores, understands and takes control.
+That is **agency for the person**, not an agent standing between the person
+and the historical system.
+
 ### Support and collaboration across the restoration projects
 
 Ben, could you help me think about **support and collaboration for this whole
