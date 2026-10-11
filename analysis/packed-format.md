@@ -65,6 +65,11 @@ commands visibly in the access body. It supports title/alias search, article
 navigation, click-for-definition/double-click-to-follow, browser history and explicit
 unresolved targets.
 
+Link delimiters are hidden in the reading view. For original box-drawing lines,
+spacing is measured against the preceding border so removing delimiters does
+not move the closing edge. No new link glyphs or box graphics are invented;
+the raw disclosure retains the original bytes and markers.
+
 It does **not** emulate original page layout, exact reveal timing, fonts,
 graphics, printing or external-program behavior. CP437 is a named access profile,
 not universal encoding detection. Historical text is not silently corrected.
