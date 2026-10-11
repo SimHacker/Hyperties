@@ -15,6 +15,10 @@ This is an October 2026 work-in-progress, not a claim of complete restoration.
 in any browser — no account or installation needed. Click highlighted links to
 see their short descriptions; double-click to follow. Hover does nothing.
 Enable **Read link definitions aloud on single click** to hear that same
+description, or use **Read article aloud** beside the title to hear the article
+itself. **Stop reading** stops either kind of speech. Definition-only records
+are read using their original short description.
+The single-click option reads that same
 description through your browser's speech synthesis. It is off by default;
 another selection or navigation stops the previous speech. It uses no microphone,
 and unsupported browsers retain the text-only interaction. Voice processing

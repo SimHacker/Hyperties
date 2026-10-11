@@ -10,6 +10,9 @@ function setup(supported = true) {
   const elements = {
     'speak-definitions': { checked: false, disabled: false },
     'speech-status': { textContent: 'Browser speech notice' },
+    'read-article': { disabled: false },
+    'stop-reading': { disabled: true },
+    body: { textContent: 'Visible article body with link labels' },
   };
   const spoken = [];
   const events = {};
@@ -20,6 +23,8 @@ function setup(supported = true) {
     SpeechSynthesisUtterance: class { constructor(text) { this.text = text; } },
     element: id => elements[id],
     addEventListener: (name, handler) => { events[name] = handler; },
+    currentArticle: { title: 'Article title', body: 'Source body', description: 'Definition' },
+    accessText: text => text,
   });
   vm.runInContext(speechCode, context);
   return { context, elements, spoken, events, canceled: () => canceled };
@@ -56,7 +61,23 @@ test('speech failures are visible and leaving the page cancels speech', () => {
 test('unsupported browsers disable speech with an explicit text-only notice', () => {
   const s = setup(false);
   assert.equal(s.elements['speak-definitions'].disabled, true);
+  assert.equal(s.elements['read-article'].disabled, true);
   assert.match(s.elements['speech-status'].textContent, /not supported/);
   vm.runInContext("speakDefinition('Definition')", s.context);
   assert.equal(s.spoken.length, 0);
+});
+
+test('article button reads visible text independently of definition opt-in and Stop cancels', () => {
+  const s = setup();
+  s.elements['read-article'].onclick();
+  assert.equal(s.spoken[0].text, 'Article title.\nVisible article body with link labels');
+  assert.equal(s.elements['stop-reading'].disabled, false);
+  s.elements['stop-reading'].onclick();
+  assert.equal(s.canceled(), 1);
+  assert.equal(s.elements['stop-reading'].disabled, true);
+  vm.runInContext("currentArticle.body='';", s.context);
+  s.elements['read-article'].onclick();
+  assert.equal(s.spoken[1].text, 'Article title.\nDefinition');
+  s.spoken[1].onend();
+  assert.equal(s.elements['stop-reading'].disabled, true);
 });

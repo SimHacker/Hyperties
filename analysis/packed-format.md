@@ -70,6 +70,10 @@ single click (or the first Enter activation). Speech is off by default and
 stops on another selection, navigation or disabling the control. Unsupported
 browsers and speech errors are reported visibly; the text preview remains
 available. There is no microphone access or speech recognition in this feature.
+Prominent Read article aloud and Stop reading buttons beside the title provide
+explicit article playback independently of the definition option. Playback uses
+the rendered article text, or the original description for a definition-only
+record, preceded by the title.
 
 Link delimiters are hidden in the reading view. For original box-drawing lines,
 spacing is measured against the preceding border so removing delimiters does
