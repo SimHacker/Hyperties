@@ -217,6 +217,21 @@ approached it, understood the choices, reached the controls, read the screen,
 and found a way forward or back.
 
 **Making it usable for older visitors belongs at the center of that work.**
+The touchscreen is an important example: letting someone point directly at a
+visible choice can make an exhibit approachable without requiring familiarity
+with a mouse, keyboard commands or computer conventions. But the touchscreen
+alone is not the accomplishment. The research behind it matters: how choices
+were presented, how contact and selection worked, how feedback supported
+confidence, and how the interface accommodated visitors' abilities and
+experience. The lift-off work belongs in that larger story, with its precise
+relationship to this installation documented rather than assumed.
+
+We want to preserve **the research that made the exhibit accessible**, not
+just reproduce its equipment. Papers, prototypes, observations, usability
+studies, design revisions and collaborators' accounts can explain why the
+installation took the form it did. Ben, your account of that work can connect
+the surviving database to the questions, experiments and people behind it.
+
 Rather than treat older people as one uniform group, we should investigate the
 range of visual, motor, hearing and cognitive needs the installation addressed.
 Screen size and angle, seating and reach, text size and contrast, target sizes,
