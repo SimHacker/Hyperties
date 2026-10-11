@@ -104,6 +104,41 @@ already noted in the [timeline](timeline.md). Precise institutional/project
 identity should be confirmed before claiming a particular deployed museum
 installation.
 
+### Platform changes must not erase historical responsibility
+
+Preservation should not require starting over with each new platform. Original
+records, edition identities, attribution, link structures and recovery evidence
+should remain independently available through open representations and explicit
+dependencies. Modern access copies must be reproducible without silently
+replacing the source or flattening different editions into one account.
+
+The [portrait's first-class perspectives design](https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/PORTRAIT.md#a-camera-you-can-inhabit-steer-and-record)
+has particular consequences here. A new tour, camera viewpoint or reconstructed
+installation is **an authored interpretation**, not recovered testimony.
+Give it its own author, sources, date, version and declared reconstruction
+choices. Preserve the distinction between original exhibit navigation and a
+modern guide's selected path. Let readers reach the underlying articles and
+their context without accepting the tour's framing.
+
+Technical control over a representation is not authority to speak for the
+people represented. Do not invent survivor testimony, victims' dialogue,
+inner lives or historical actions to populate an interactive scene. Stylized
+figures may explain visitors operating the exhibit; they must not blur into
+purported reenactments of suffering. Any use of real people's likenesses,
+recordings or testimony needs appropriate permissions, attribution and review
+with relevant custodians and communities.
+
+First-class perspectives are valuable, but not every transformation is an
+appropriate presentation of this material. Playful or accelerated demonstrations
+of interface mechanics must remain distinct from the treatment of Holocaust
+history and testimony. Accessibility and learner control should bring people
+closer to the evidence, not turn it into spectacle.
+
+The literary warning in *The Wedding Album* is an analogy, not a claim about
+simulated consciousness: owning the software does not settle responsibility
+for the human history it presents. Historical and curatorial judgment remain
+necessary even when conversion, animation and publication become easy.
+
 ## Useful questions for Ben's oral history
 
 These are future interview prompts, not a request to block current work:
