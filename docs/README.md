@@ -249,7 +249,17 @@ and historical framing; empathy is not a license to turn it into entertainment.
 
 The new access version should also be usable itself: adjustable readable text,
 keyboard and alternative input, screen-reader access, understandable controls,
-and optional rather than mandatory animation. Embodied demonstrations should
+and optional rather than mandatory animation. **Speech synthesis and speech
+recognition should be part of that access layer**, following the PDP-7 console's
+example: it can speak output and accept dictated input even though the original
+machine offered neither. For HyperTIES, we could offer spoken articles and link
+descriptions, dictated searches, and voice-operated navigation, alongside touch
+and keyboard controls. These are proposed modern enhancements, not claims about
+the historical museum interface. Speech should be opt-in, with visible feedback,
+clear microphone consent and non-speech alternatives; recognition availability
+and any external processing should be explicit.
+
+Embodied demonstrations should
 have equivalent textual explanations and should not stand between a reader
 and the historical material. We can document original constraints while removing
 barriers today, testing the result with older people and people with disabilities
