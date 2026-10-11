@@ -291,8 +291,12 @@ puts it, **tribute, accessibility and fun belong in the front seat.**
 ### Philosophy, Turing machines, and living courseware
 
 There is another Maryland connection I would love to bring into this work:
-the Philosophy department. I took a course from Christopher Cherniak, who
-developed a Turing-machine simulator. I have recovered his emulator and all
+the Philosophy department. Christopher Cherniak's course on the philosophy of
+computers was one of my favorite courses. It laid the groundwork for my career,
+and I still think about it frequently. Restoring these teaching materials is
+also a personal tribute to that lasting influence.
+
+Cherniak developed a Turing-machine simulator. I have recovered his emulator and all
 its data files, along with other programs he used to teach philosophy of
 computers. **I would like permission to use those materials with my own universal
 Turing-machine emulator.** Recovery is not permission to republish or adapt;
