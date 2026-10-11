@@ -14,6 +14,30 @@ repository the single source of truth for code and data.
 No NeWS or webtop sources, dependencies, deployments or repository histories
 have been moved as part of the current corpus reorganization.
 
+## Publishing at hyperties.org: standalone nuggets
+
+hyperties.org can host static content as it becomes ready, alongside the new
+Hyperties engine Don is developing, with transclusion informed by his analysis
+of gwern.net. GitHub remains the source; the site is a publication target.
+
+Publish recovered material as **discrete nuggets** that stand on their own:
+
+- Each nugget is a self-contained HTML or Markdown unit: a recovered article,
+  the hyper-joke, a museum theme, a format explainer, or an interactive tool.
+- A nugget must work when opened directly, when transcluded into another
+  document, and when wrapped in an iframe. The PDP-7 emulator is the model.
+- Nuggets carry their own provenance: source collection, original path,
+  SHA-256 and recovery status. Gaps stay labeled rather than silently filled.
+- Prefer stable, meaningful URLs and fragment IDs so other documents can
+  transclude or link precise parts.
+- Generate nuggets from the originals with the shared TypeScript core, at build
+  time in Node. The same code can render them live in the browser.
+
+The current reading room (`analysis/reading-room.html`, generated and
+Git-ignored) is a first self-contained example. It has no network dependencies
+and embeds the browser bundle. Splitting it into per-article and per-collection
+nuggets is a natural next step.
+
 ## Keep the layout open
 
 - `corpus/` holds intact historical collections. The NeWS edition's content can
