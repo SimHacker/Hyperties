@@ -111,6 +111,13 @@ and basis for "common"; if unsupported, label it as a hypothesis rather than
 a fact. It can help rank a Polish pronunciation alongside other contextual
 variants without deciding the person's identity or preference.
 
+Metadata can also explain a contextual sound change: for example, **"this
+Amsterdam-accent candidate omits the final /n/ after an unstressed schwa"**,
+if the relevant linguistic evidence supports it for this form. Specify the
+phonetic environment, register and regional scope rather than assert that
+an Amsterdam accent drops every "n". Such a rule can motivate a variant;
+it does not establish how this individual pronounces their name.
+
 Return multiple plausible variants where appropriate, including different
 pronunciations of the same spelling. Deduplicate equivalent candidates without
 discarding their independent evidence. Report insufficient evidence or no
