@@ -29,6 +29,12 @@ Historical fidelity does not require perpetuating historical limitations.
 and plans to recreate machines, sounds and embodied interaction with animated
 operators. HyperTIES belongs to the same mission: tribute, accessibility and fun.
 
+The welcome page also explains
+[stylized people in realistic environments](docs/README.md#why-stylized-people-in-a-realistic-place),
+through Scott McCloud's ideas about identification, and proposes restoring
+[the museum installation as well as its database](docs/README.md#restore-the-museum-installation-not-only-the-database),
+with older visitors' needs, dignity and accessibility central to the work.
+
 Top-level layers: [corpus](corpus/README.md), [reference](reference/README.md),
 [docs](docs/README.md), [analysis](analysis/README.md) and [tools](tools/README.md).
 Use the [repository index](INDEX.md), [layout/path map](docs/layout.md),

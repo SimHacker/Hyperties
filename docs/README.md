@@ -189,6 +189,62 @@ feedback, terminology, each collaborator's contribution and appropriate
 portrayals. Surviving papers, photographs, code and demonstrations should guide
 the reconstruction; modern explanatory additions should be labeled.
 
+### Why stylized people in a realistic place?
+
+The low-resolution Sims 1 people and photorealistic machines are a deliberate
+combination, not a compromise we need to hide. Scott McCloud describes a related
+principle in *Understanding Comics*, often called the **masking effect**:
+simplified characters can invite identification within a richly detailed world.
+The person is an approachable figure a viewer can imaginatively inhabit; the
+setting gives that person something concrete to inhabit and act upon.
+
+That is the intention here, not a guarantee that every viewer will respond in
+the same way. We do not need a photorealistic digital double to convey someone's
+attention, effort, uncertainty or discovery. A stylized operator can invite
+empathy without pretending to be documentary footage. Meanwhile, accurately
+modeled hardware anchors the demonstration: the height of the keyboard, the
+angle of the glass, the distance a hand travels, and the space people share
+remain specific and inspectable. The contrast lets us say both **"imagine
+yourself here"** and **"this is how the equipment and environment worked."**
+
+### Restore the museum installation, not only the database
+
+These principles also suggest a richer restoration of the Encyclopedia of
+Jewish Heritage and the Holocaust. The surviving articles and links are only
+part of the exhibit. We want to recover the thought and work behind its physical
+installation, information structure, interface and interactivity: how a visitor
+approached it, understood the choices, reached the controls, read the screen,
+and found a way forward or back.
+
+**Making it usable for older visitors belongs at the center of that work.**
+Rather than treat older people as one uniform group, we should investigate the
+range of visual, motor, hearing and cognitive needs the installation addressed.
+Screen size and angle, seating and reach, text size and contrast, target sizes,
+selection feedback, pacing, clear navigation and recovery from mistakes are
+all questions for the restoration. Photographs, plans, design notes, visitor
+studies and the memories of designers and museum staff could tell us what was
+actually tried and learned. These are research questions, not claims that we
+have established the original installation's specifications.
+
+A reconstructed setting with stylized visitor figures could demonstrate those
+choices and help people understand the experience of using the exhibit.
+The figures would illustrate **visitors and interaction**, not dramatize victims
+or historical suffering. Holocaust material requires dignity, careful attribution
+and historical framing; empathy is not a license to turn it into entertainment.
+
+The new access version should also be usable itself: adjustable readable text,
+keyboard and alternative input, screen-reader access, understandable controls,
+and optional rather than mandatory animation. Embodied demonstrations should
+have equivalent textual explanations and should not stand between a reader
+and the historical material. We can document original constraints while removing
+barriers today, testing the result with older people and people with disabilities
+rather than assuming that realism or a large font alone makes it accessible.
+
+Ben, we would especially value your account of the physical installation and
+the work to make it approachable for elderly visitors: who contributed, which
+design decisions mattered, and what evidence survives. That knowledge is part
+of the history we want to preserve alongside the source records.
+
 **HyperTIES restoration and documentation belong to this same mission.**
 Recovering your records, previews, maps and paths is one part; understanding the
 authors, readers, installations and collaborations is another. We want to
@@ -217,6 +273,9 @@ puts it, **tribute, accessibility and fun belong in the front seat.**
 - Would a touchscreen lift-off demonstration with you, Catherine Plaisant and
   Rich Potter be a useful next exhibit? What original setup and material should
   guide it?
+- What physical and interface design work made the museum installation usable
+  for elderly visitors, and are there plans, photographs, evaluations or people
+  whose accounts we should preserve?
 
 ## What is verified
 
