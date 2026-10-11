@@ -79,6 +79,45 @@ explicitly, not silently attach it to new text.
 
 ### Assistance proposes; humans decide
 
+#### General problem: name and context to ranked candidates
+
+Given a name and supplied context, return a ranked set of pronunciation
+hypotheses with metadata explaining each one. The reusable service should
+not assume a museum collection, a particular speech engine or a single answer.
+Context can include the surrounding passage, date, place, source language,
+known identity and cited recordings or preferences, with provenance for those
+facts. Distinguish supplied facts from inferred possibilities.
+
+Each candidate should include:
+
+- pronunciation in an identified notation, with syllable/stress information
+  where available;
+- applicable language/locale and variant, including uncertainty;
+- rank and ranking score, with the scoring method identified; a score is not
+  a probability unless calibrated as such;
+- supporting evidence and source references, and whether evidence is direct
+  (such as an identified self-pronunciation) or indirect (such as a lexical rule);
+- assumptions, contradictory evidence, missing information and scope of
+  applicability to this person or context;
+- generator/model/ruleset version and generation provenance;
+- review status and any reviewed engine-specific rendering, kept distinct
+  from the generated hypothesis.
+
+Return multiple plausible variants where appropriate, including different
+pronunciations of the same spelling. Deduplicate equivalent candidates without
+discarding their independent evidence. Report insufficient evidence or no
+supported candidates explicitly rather than manufacture a confident result.
+A person's documented preference is stronger evidence for that person than
+a generic language rule; historical variants may still need separate entries.
+
+The reviewer sees the alternatives, why they were ranked, and auditions in
+available voices. Accepting a candidate creates a separate reviewed annotation,
+with scope and evidence; it does not turn the generator's guesses into facts.
+Corrections can improve later candidate generation without rewriting the
+historical record of earlier proposals. If this eventually uses an external
+service, permissions and privacy must be addressed before sending names or
+context; the interface itself should remain independent of any such service.
+
 An ML classifier could locate candidate names and suggest language or
 pronunciation candidates, with confidence and supporting evidence. Its output
 belongs in a review queue, not directly in published speech annotations.
