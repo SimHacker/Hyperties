@@ -11,6 +11,7 @@ Analysis date: 2026-10-11. Goal: a useful, curated restoration repository, **not
 - [Verified packed LZW format and recovery coverage](packed-format.md)
 - [Shared TypeScript tools](../tools/README.md)
 - [Crown jewels: book, hyper-joke and museum restoration](crown-jewels.md)
+- [Museum structure, names, lookup and questions for Ben](museum-structure.md)
 - `Generated semantic article/index map`
 - [Timeline, separating historical events from copy dates](timeline.md)
 - [Private material and publication-rights review](publication-review.md)

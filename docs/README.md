@@ -526,6 +526,34 @@ institutions as well as the wider public. For Maryland and HCIL, the equivalent
 could be recovering the people, research, content and physical installations
 behind HyperTIES and the touchscreen work—not simply funding a software port.
 
+### Museum lookup and content
+
+For the museum specifically, see the
+[structure, name inventory and lookup evidence](../analysis/museum-structure.md)
+and [detailed questions](../analysis/museum-structure.md#questions-for-ben).
+We have identified 102 person-focused articles plus three family entries in
+the earlier encyclopedia, not a comprehensive victim-name registry.
+
+### Format and recovery questions
+
+- Do authoring sources or exports survive for the later museum's `ENC.HDT`?
+  We still need record boundaries, compression details and numeric article IDs.
+- What are the roles and schemas of its `HIN`, `HFF`, `HNC`, `HOL`, `HSD` and
+  `HUC` companions? `HLN` has readable title evidence, but its full rules also
+  need validation. We should not guess expansions of the suffixes.
+- Are there specifications or source for classic `BIGRAPH.TIE` and
+  `GINDEX.TIE` graphics, and later styles, hotspots and graphic-region commands?
+- What are the museum's `PCC` files, and which video or image resources were
+  external? PCX, GIF and FLI are recognized standards, but we still need to
+  render and connect them correctly, including palettes and animation timing.
+- Was visitor name lookup the encyclopedia index/search, a separate registry,
+  or another component? Which original program or dataset should we inspect?
+
+The book's two text codecs and earlier museum article/index readers are
+working; these questions concern the remaining stores and interactions, not
+missing book text. The [file-type registry](file-types/README.md) links current
+definitions, evidence and unknowns.
+
 ### Historical and design questions
 
 - What was the exact book title, edition and authorship?

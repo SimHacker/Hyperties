@@ -3,6 +3,16 @@
 
 Loose museum articles, aliases and navigation into themes, chronology, questions, culture and Holocaust history.
 
+## Structure, names and lookup
+
+This is a linked encyclopedia: 402 surviving article files and 478 index rows. Four hundred index rows have loose articles; 78 do not. CHRONOLO and LEARNING survive without index rows. Each article has a heading, short description, body and references, plus two other preserved sections.
+
+The original help offers an index via EXTRA and word/phrase search via EXTRA then SEARCH. Named subjects can be found among the articles, but a separate victim-name or genealogy registry is not established. A reviewed title-based inventory identifies **102 person-focused entries, all with surviving articles, plus three family-focused entries**. This is not the number of victims or every name mentioned in the text.
+
+People include religious and cultural figures, scientists, politicians, resistance activists, rescuers and perpetrators. Other articles cover Jewish beliefs and practices, immigration, organizations, geography, laws, events, ghettos and camps. Four authored themes organize access: The World Before, The Holocaust, The Aftermath and Renewal in America; questions, outlines, timelines and maps provide overlapping paths.
+
+Read the [full structure and linked name inventory](../../../analysis/museum-structure.md), including counting rules and source evidence, and [questions for Ben](../../../analysis/museum-structure.md#questions-for-ben). The modern reader searches titles/aliases, not the original SEARCH implementation.
+
 ## Read this directory in layers
 
 - [GLANCE.yml](GLANCE.yml): compact relevance/status summary for LLMs and catalog tools.

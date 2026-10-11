@@ -79,6 +79,12 @@ personal genealogy database.
   is missing or the historical system was broken.
 - Entry points include introduction, four major themes, Holocaust outlines and
   lists, Austrian history, maps, Jewish history and culture.
+- The [structure and name inventory](museum-structure.md) identifies 102
+  person-focused entries and three family entries under explicit reviewed
+  title rules, not a victim census or count of all name mentions.
+  Original help documents an article index and word/phrase search; a separate
+  name registry is not established. Of 478 index rows, 400 have loose files,
+  78 do not; two other article files are unindexed.
 - The later collection preserves `.HDT` and companion indexes, still graphics,
   animation media and a distinct [3.0.5.100 browser](../corpus/museum/newmjh/BROWSER.EXE).
 
@@ -160,6 +166,10 @@ listening review. Correctly speaking a name is part of the restoration's
 responsibility toward people, not merely an audio-polish task.
 
 ## Useful questions for Ben's oral history
+
+The [museum-specific questions](museum-structure.md#questions-for-ben) cover
+name lookup versus a separate registry, missing content and the unresolved
+HDT/companion/media formats.
 
 These are future interview prompts, not a request to block current work:
 
