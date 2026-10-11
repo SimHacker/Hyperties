@@ -103,6 +103,14 @@ Each candidate should include:
 - review status and any reviewed engine-specific rendering, kept distinct
   from the generated hypothesis.
 
+Explanations can include lexical observations such as **"this is a common
+Polish surname"**, supported by a cited name dictionary or frequency source.
+That is evidence about the name's usage, not a claim that the person is Polish
+or uses its Polish pronunciation. Record the source, geographic/time scope
+and basis for "common"; if unsupported, label it as a hypothesis rather than
+a fact. It can help rank a Polish pronunciation alongside other contextual
+variants without deciding the person's identity or preference.
+
 Return multiple plausible variants where appropriate, including different
 pronunciations of the same spelling. Deduplicate equivalent candidates without
 discarding their independent evidence. Report insufficient evidence or no
