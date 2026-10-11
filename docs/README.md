@@ -15,9 +15,9 @@ This is an October 2026 work-in-progress, not a claim of complete restoration.
 in any browser — no account or installation needed. Click highlighted links to
 see their short descriptions; double-click to follow. Hover does nothing.
 Enable **Definitions** in the compact toolbar to hear that same
-description, or use **Read** to hear the article itself. It changes to **Stop**
+description, or use **Speak** to hear the article itself. It changes to **Stop**
 during either kind of speech. **Articles** automatically reads each article
-once per visit; toggling it off and on does not replay it, but **Read** does.
+once per visit; toggling it off and on does not replay it, but **Speak** does.
 Navigation resets that memory. Definition-only records
 are read using their original short description.
 The single-click option reads that same

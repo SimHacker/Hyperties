@@ -11,7 +11,7 @@ function setup(supported = true) {
     'speak-definitions': { checked: false, disabled: false },
     'speak-articles': { checked: false, disabled: false },
     'speech-status': { textContent: '' },
-    'read-article': { disabled: false, innerHTML: 'Read' },
+    'read-article': { disabled: false, innerHTML: 'Speak' },
     body: { textContent: 'Visible article body with link labels' },
   };
   const spoken = [];
@@ -75,12 +75,12 @@ test('article button reads visible text independently of definition opt-in and S
   assert.match(s.elements['read-article'].innerHTML, /Stop/);
   s.elements['read-article'].onclick();
   assert.equal(s.canceled(), 1);
-  assert.match(s.elements['read-article'].innerHTML, /Read/);
+  assert.match(s.elements['read-article'].innerHTML, /Speak/);
   vm.runInContext("currentArticle.body='';", s.context);
   s.elements['read-article'].onclick();
   assert.equal(s.spoken[1].text, 'Article title.\nDefinition');
   s.spoken[1].onend();
-  assert.match(s.elements['read-article'].innerHTML, /Read/);
+  assert.match(s.elements['read-article'].innerHTML, /Speak/);
 });
 
 test('article auto-reading happens once per visit, including manual reading and interruption', () => {
@@ -121,5 +121,5 @@ test('changing one automatic-reading option does not interrupt the other kind of
   s.spoken[0].onend();
   assert.match(s.elements['read-article'].innerHTML, /Stop/);
   s.spoken[1].onerror({ error: 'voice-unavailable' });
-  assert.match(s.elements['read-article'].innerHTML, /Read/);
+  assert.match(s.elements['read-article'].innerHTML, /Speak/);
 });

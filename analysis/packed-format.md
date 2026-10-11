@@ -70,10 +70,10 @@ single click (or the first Enter activation). Speech is off by default and
 stops on another selection, navigation or disabling the control. Unsupported
 browsers and speech errors are reported visibly; the text preview remains
 available. There is no microphone access or speech recognition in this feature.
-The compact toolbar's Read/Stop button provides explicit playback independently
+The compact toolbar's fixed-width Speak/Stop button provides explicit playback independently
 of its Definitions and Articles checkboxes. Articles automatically reads once per
 visit; toggling it again does not replay an already-started article. Navigation
-resets that memory, and Read can always replay it. Playback uses
+resets that memory, and Speak can always replay it. Playback uses
 the rendered article text, or the original description for a definition-only
 record, preceded by the title. Unimplemented command tokens are always hidden
 in the reading view and remain intact in the original markup.
