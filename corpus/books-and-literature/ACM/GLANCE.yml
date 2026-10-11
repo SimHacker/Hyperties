@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Author-indexed computing literature with classification terms and 8604-series identifiers. Separate from the July 1988 CACM hypertext issue."
+why: "49 packed records decode byte-for-byte to their loose originals; an important codec reference corpus."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - ACM
+counts:
+  retained_files: 66
+  logical_bytes: 472116
+formats: [".bat",".exe",".fil",".new",".p",".pcx",".s",".sys",".tie",".tif",".txt"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

@@ -1,0 +1,19 @@
+# Family source is included for Ben's review; operational logs stay excluded.
+
+# Host state, user settings, session/import logs and temporary files.
+.DS_Store
+._*
+__MACOSX/
+*.lnk
+*.LNK
+*.pif
+*.PIF
+*.log
+*.LOG
+[Ll][Oo][Gg]
+*.$$$
+default.set
+
+# Reproducible build and access outputs.
+node_modules/
+dist/

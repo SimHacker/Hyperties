@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Packed tour knowledge base, VGA images, companion indexes and browser 3.0.3.19."
+why: "Related to TOUR7_91 but 18 same-path files differ; preserve meaningful edition differences."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - TOUR30
+counts:
+  retained_files: 45
+  logical_bytes: 1427762
+formats: [".bat",".exe",".hdt",".hff",".hin",".hln",".hnc",".hol",".hsd",".huc",".pal",".pcc",".pcx"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

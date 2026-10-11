@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Small scratch/import records and duplicates useful for understanding early article formats."
+why: "Includes a truncated chronology. Preserve useful parser cases; not a polished content edition."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - CHIM
+counts:
+  retained_files: 13
+  logical_bytes: 27303
+formats: [".fil",".ori",".tie"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../../docs/collections.md
+  - ../../../../docs/import-process.md

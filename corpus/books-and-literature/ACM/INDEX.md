@@ -1,0 +1,127 @@
+<!-- Generated collection documentation: analysis/document-collections.mjs -->
+# File index: Computing literature and abstracts
+
+[Overview](README.md) · [Glance](GLANCE.yml)
+
+Original retained paths grouped by suffix. A suffix is not proof of a schema; see the [format map](../../../docs/formats.md). Sizes are logical bytes.
+
+## .bat
+
+| File | Bytes |
+|---|---:|
+| [ACM.BAT](ACM.BAT) | 13 |
+
+## .exe
+
+| File | Bytes |
+|---|---:|
+| [BROWSER.EXE](BROWSER.EXE) | 114725 |
+
+## .fil
+
+| File | Bytes |
+|---|---:|
+| [AIRENTIG.FIL](AIRENTIG.FIL) | 4084 |
+| [ARNOLDWI.FIL](ARNOLDWI.FIL) | 2376 |
+| [AUTHORIN.FIL](AUTHORIN.FIL) | 6197 |
+| [BAHLHARI.FIL](BAHLHARI.FIL) | 1955 |
+| [BAIRDHEN.FIL](BAIRDHEN.FIL) | 4467 |
+| [BARTSCHI.FIL](BARTSCHI.FIL) | 1729 |
+| [BERLINER.FIL](BERLINER.FIL) | 2855 |
+| [BESLPAUL.FIL](BESLPAUL.FIL) | 4503 |
+| [BIERMANN.FIL](BIERMANN.FIL) | 1928 |
+| [BLAZERRO.FIL](BLAZERRO.FIL) | 1591 |
+| [CARDENAS.FIL](CARDENAS.FIL) | 3710 |
+| [CHENARBE.FIL](CHENARBE.FIL) | 3607 |
+| [CONTENT.FIL](CONTENT.FIL) | 478 |
+| [CONTENTO.FIL](CONTENTO.FIL) | 3460 |
+| [CONTENTP.FIL](CONTENTP.FIL) | 5018 |
+| [DATECJ.FIL](DATECJ.FIL) | 2243 |
+| [DEANTONE.FIL](DEANTONE.FIL) | 1847 |
+| [EGYHAZYC.FIL](EGYHAZYC.FIL) | 1624 |
+| [ENNALSRI.FIL](ENNALSRI.FIL) | 2845 |
+| [GAITJASO.FIL](GAITJASO.FIL) | 2984 |
+| [GENERALT.FIL](GENERALT.FIL) | 5380 |
+| [GUTKNECH.FIL](GUTKNECH.FIL) | 3261 |
+| [HARRISMA.FIL](HARRISMA.FIL) | 5140 |
+| [HARTZBAN.FIL](HARTZBAN.FIL) | 2759 |
+| [HODGSONR.FIL](HODGSONR.FIL) | 2116 |
+| [INTRODUC.FIL](INTRODUC.FIL) | 496 |
+| [JOHNSONW.FIL](JOHNSONW.FIL) | 2502 |
+| [LAMKP.FIL](LAMKP.FIL) | 1922 |
+| [LAURIEPE.FIL](LAURIEPE.FIL) | 1564 |
+| [LEERONAL.FIL](LEERONAL.FIL) | 2635 |
+| [LILIENLE.FIL](LILIENLE.FIL) | 4096 |
+| [MAIDAANT.FIL](MAIDAANT.FIL) | 1566 |
+| [MCKEOWNK.FIL](MCKEOWNK.FIL) | 2564 |
+| [OLSENDAN.FIL](OLSENDAN.FIL) | 2551 |
+| [ORMANLEV.FIL](ORMANLEV.FIL) | 1933 |
+| [POGGIOTO.FIL](POGGIOTO.FIL) | 4659 |
+| [ROESNERD.FIL](ROESNERD.FIL) | 1960 |
+| [SAKATASH.FIL](SAKATASH.FIL) | 2991 |
+| [SAMPATHG.FIL](SAMPATHG.FIL) | 3110 |
+| [SARINSUN.FIL](SARINSUN.FIL) | 3041 |
+| [SELLPETE.FIL](SELLPETE.FIL) | 4695 |
+| [SHEARERJ.FIL](SHEARERJ.FIL) | 3490 |
+| [SMITHLD.FIL](SMITHLD.FIL) | 1919 |
+| [SPIEGLER.FIL](SPIEGLER.FIL) | 2641 |
+| [SPROULLR.FIL](SPROULLR.FIL) | 5243 |
+| [STONEBRA.FIL](STONEBRA.FIL) | 8524 |
+| [YAMASHIT.FIL](YAMASHIT.FIL) | 3823 |
+| [YANKELOV.FIL](YANKELOV.FIL) | 3326 |
+| [YUCLEMEN.FIL](YUCLEMEN.FIL) | 3547 |
+
+## .new
+
+| File | Bytes |
+|---|---:|
+| [INDEX.NEW](INDEX.NEW) | 3420 |
+
+## .p
+
+| File | Bytes |
+|---|---:|
+| [SIG.P](SIG.P) | 1470 |
+
+## .pcx
+
+| File | Bytes |
+|---|---:|
+| [ACMCGA.PCX](ACMCGA.PCX) | 6000 |
+| [COVER.PCX](COVER.PCX) | 29116 |
+
+## .s
+
+| File | Bytes |
+|---|---:|
+| [SIG.S](SIG.S) | 25619 |
+
+## .sys
+
+| File | Bytes |
+|---|---:|
+| [TIES.SYS](TIES.SYS) | 43 |
+
+## .tie
+
+| File | Bytes |
+|---|---:|
+| [BIGFILE.TIE](BIGFILE.TIE) | 86694 |
+| [BIGRAPH.TIE](BIGRAPH.TIE) | 13552 |
+| [COMMON.TIE](COMMON.TIE) | 857 |
+| [GINDEX.TIE](GINDEX.TIE) | 26 |
+| [INDEX.TIE](INDEX.TIE) | 2918 |
+| [REFER.TIE](REFER.TIE) | 9900 |
+| [TITLE.TIE](TITLE.TIE) | 12 |
+
+## .tif
+
+| File | Bytes |
+|---|---:|
+| [COVER.TIF](COVER.TIF) | 23020 |
+
+## .txt
+
+| File | Bytes |
+|---|---:|
+| [HELP.TXT](HELP.TXT) | 1776 |

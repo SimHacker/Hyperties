@@ -1,0 +1,15 @@
+# Repository index
+
+- [Welcome and guided tour](docs/README.md)
+- [Historical corpus](corpus/README.md)
+- [Reference documents](reference/README.md)
+- [All collections](docs/collections.md)
+- [Version/runtime view](docs/by-version.md)
+- [Storage/format view](docs/by-storage.md)
+- [File types and population histogram](docs/file-types/README.md)
+- [Layout and original-path map](docs/layout.md)
+- [Research and analysis](analysis/README.md)
+- [Shared TypeScript tools](tools/README.md)
+- [Code architecture: Node and browser](docs/architecture.md)
+- [Future NeWS/webtop integration](docs/future-integration.md)
+- [Source checksums](manifests/README.md)

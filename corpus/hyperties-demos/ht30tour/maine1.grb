@@ -1,0 +1,6 @@
+FILE = "maine1.pcx"
+TYPE = PCX
+MODE = 640 BY 480 BY 16
+SIZE = 640 BY 480
+CLEAR = YES
+

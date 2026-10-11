@@ -1,0 +1,8 @@
+what: "Historical HyperTIES collections: books-and-literature"
+status: recovering
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  version_view: ../../docs/by-version.md
+  format_view: ../../docs/by-storage.md
+collections: ["ACM","CACM-Hypertext Conference issue July 1988","HHO-Hypertext on Hypertext book-1988","cr","sigchi","horror","red-mask"]

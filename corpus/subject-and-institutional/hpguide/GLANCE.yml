@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "HP Explorer/Travel Guide material, packed knowledge base, print streams and browser 3.0.3.80. Not a Hyperties developer guide."
+why: "PCL/RFS printer-stream examples are distinctive. Per-user settings are excluded."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - HPGUIDE
+counts:
+  retained_files: 12
+  logical_bytes: 1568985
+formats: [".bat",".exe",".hdt",".hff",".hin",".hol",".hph",".huc",".msg",".pcl",".rfs",".txt"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

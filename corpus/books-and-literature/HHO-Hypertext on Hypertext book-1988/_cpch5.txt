@@ -1,0 +1,17 @@
+
+
+
+                  ษอออออออออออออออออออออออออออออออออออออออออป
+                  บ                                         บ
+                  บ             5 - Authoring               บ
+                  บ                                         บ
+                  ศอออออออออออออออออออออออออออออออออออออออออผ
+
+
+                The process of creating hypertext documents and
+                databases is called authoring.  While and
+                authoring program or system will manage the
+                nodes and links, the person doing the authoring
+                must design the structure of the database and
+                the individual articles in it.
+

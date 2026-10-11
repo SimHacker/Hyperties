@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Research/application corpus with short descriptions, links and external-action experiments, including a pointer to the hyper-joke."
+why: "Has meaningful differences from HTUISM; neither is treated as an exact duplicate."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - HTUIS
+counts:
+  retained_files: 52
+  logical_bytes: 453816
+formats: [".bat",".fil",".new",".pcx",".sys",".tie"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

@@ -1,0 +1,5 @@
+FILE = "GBReturn.pcc"
+TYPE = PCX
+MODE = 640 BY 480 BY 16
+SIZE = 98 BY 59
+

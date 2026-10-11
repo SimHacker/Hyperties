@@ -1,0 +1,26 @@
+ ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+ บ    HELP              AIDS INTERACTIVE LIBRARY                HELP   บ
+ บอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออบ
+ บ                                                                     บ
+ บ    With the AIDS Interactive Library you can study a collection of  บ
+ บ    definitions, called Articles.  You can retrieve additional       บ
+ บ    information on any article which are highlighted (in blue) by    บ
+ บ    placing the 'cursor' on it and pressing the ENTER key.           บ
+ บ                            --------                                 บ
+ บ    Use ARROW KEYS or MOUSE to move cursor. Press the Enter key      บ
+ บ    when the cursor is on the article or command you want to select. บ
+ บ                             --------                                บ
+ บ    To exit the Library, press <CTRL>-Q or function key F10.         บ
+ บ---------------------------------------------------------------------บ
+ บ    KEYBOARD SHORTCUTS:                                              บ
+ บ    When you type a letter, the cursor jumps to the next highlighted บ
+ บ    word beginning with that letter.                                 บ
+ บ                                                                     บ
+ บ    Esc   - Returns to previous article   <CTRL> E - Extra           บ
+ บ    Pg Up - Previous page                 <CTRL> Q - Quit            บ
+ บ    Pg Dn - Next Page                     <CTRL> P - Print           บ
+ บ                                                                     บ
+ บ          Refer to the Library Assistant for more Help               บ
+ ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+ 
+

@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Packed book database with chapter navigation, concepts, personalities, design examples and the hypertext joke."
+why: "Crown jewel: 248 indexed records, 218 decoded by the verified LZW reader, 30 using an unresolved second codec. Exact edition/title to confirm with Ben."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - HHO-HYPERTEXT-ON-HYPERTEXT-BOOK-1988
+counts:
+  retained_files: 42
+  logical_bytes: 642456
+formats: [".bat",".com",".exe",".new",".p",".s",".sys",".tie",".txt"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

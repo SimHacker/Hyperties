@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Loose museum articles, aliases and navigation into themes, chronology, questions, culture and Holocaust history."
+why: "Crown jewel: 402 articles, 478 legacy index entries and 3,548 recognized body links. Public historical information, separate from the personal genealogy."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - OLDMJH
+counts:
+  retained_files: 420
+  logical_bytes: 1214502
+formats: [".fil",".p",".pcx",".s",".sys",".tie"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

@@ -1,0 +1,11 @@
+# Historical records contain byte offsets and mixed text/binary payloads.
+# Never normalize their line endings, even when a suffix looks textual.
+* -text
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.ts text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "David Seymour (Chim), Werner Bischof and related photographic history, with imported source text, graphics and scratch examples."
+why: "Five unsupported/malformed loose-article paths are explicit parser fixtures, not silently repaired."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - CHIM
+counts:
+  retained_files: 69
+  logical_bytes: 365980
+formats: [".bat",".exe",".fil",".new",".ori",".p",".pcx",".pic",".s",".tie",".txt"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

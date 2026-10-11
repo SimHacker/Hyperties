@@ -1,0 +1,16 @@
+what: HyperTIES historical corpus and modern restoration toolkit.
+status: recovering
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  corpus: corpus/README.md
+  versions: docs/by-version.md
+  formats: docs/file-types/README.md
+  tools: tools/README.md
+  architecture: docs/architecture.md
+  provenance: docs/layout.md
+constraints:
+  - Shared tools are platform-independent TypeScript runnable in Node and browsers; Node-only I/O stays in build adapters.
+  - Preserve historical bytes and internal names.
+  - Versions and format facets overlap; unknowns remain explicit.
+  - Family source is included for review, not privacy-certified.

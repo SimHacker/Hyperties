@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Computer-science/engineering articles, graphical links, styles, fonts and bilingual/Japanese examples."
+why: "All 264 payload files previously repeated in ECS are retained here once. Numeric article-ID and encoding work remains."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - HT30GLOS
+counts:
+  retained_files: 264
+  logical_bytes: 987944
+formats: [".elb",".fil",".grb",".pbb",".pcx",".stl",".sys",".tgf"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../../docs/collections.md
+  - ../../../../docs/import-process.md

@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Readable articles, styles, graphical definitions, fonts and multimedia-preview content."
+why: "Strong source corpus for the future style/layout interpreter."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - HT30TOUR
+counts:
+  retained_files: 102
+  logical_bytes: 1260040
+formats: [".bat",".elb",".exe",".fil",".grb",".pbb",".pcc",".pcx",".stl",".sys"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

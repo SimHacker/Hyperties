@@ -1,0 +1,17 @@
+
+
+
+                  ษอออออออออออออออออออออออออออออออออออออออออป
+                  บ                                         บ
+                  บ        3 - System Design Issues         บ
+                  บ                                         บ
+                  ศอออออออออออออออออออออออออออออออออออออออออผ
+
+
+                Each available hypertext system has its own
+                strengths and limitations which affect its
+                appropriateness for specific applications.
+
+                This chapter discusses some of the issues which
+                affect the way that systems can be used.
+

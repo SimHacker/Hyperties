@@ -1,0 +1,25 @@
+1 How to browse the encyclopedia of computer science and engineering
+
+Just input:
+>cd E:\HT30
+>ogawa
+(ogawa.bat is loaded and the browser starts to run)
+
+There are two databases for the encyclopedia.
+
+E:\HT30\OGAWA\NEW    Original demo for HT3.0 (Rubidium version).
+C:\TEMP2             Modified for the video take of July 24, 1990.
+                     You can delete this directory.
+
+Due to bugs of the current version of HT3.0 (Lanthanum, June 12, 1990
+article names are not shown on the upper left corner of the display. 
+You can show the article names (after the bugs are fixed) by changing 
+*.stl files.
+
+2 Japanese version
+
+Currently two articles, Addressing and Indirect Addressing, have the 
+Japanese version. The Japanese articles are refering each other, The 
+Japanese article 'Indirect Addressing' splits the window and shows both 
+English and Japanese. They are incomplete and intended to just give you 
+an image of a bilanguage encyclopedia.

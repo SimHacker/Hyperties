@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "A subject-navigation library covering HIV/AIDS, epidemiology, prevention, laboratory and related information. Historical material, not current medical guidance."
+why: "No conclusion that this is patient data; packed/image review remains incomplete."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - AIDS
+counts:
+  retained_files: 181
+  logical_bytes: 871543
+formats: [".bat",".exe",".fil",".p",".pcx",".s",".sys",".tie",".txt"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

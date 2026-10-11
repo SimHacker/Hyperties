@@ -1,0 +1,14 @@
+{
+  "name": "hyperties-format-tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && esbuild dist/index.js --bundle --format=iife --global-name=HypertiesFormats --outfile=dist/browser.js",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test ../analysis/records.test.mjs ../analysis/packed.test.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.12",
+    "typescript": "^5.9.3"
+  }
+}

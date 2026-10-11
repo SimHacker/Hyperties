@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Personal oral-history and genealogy database centered on Denis Andrea O’Connell and Paul Edmond O’Connell, with Irish/Italian ancestry, family narratives and geographic background."
+why: "Included at the repository owner’s request for Ben’s review before wider sharing. Introduction describes contemporaries in 1990. Creator and relationship to Ben or Don are unconfirmed; a Maryland CLIS connection is only a provenance lead. See ../analysis/family-review.md."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - FAMILY
+counts:
+  retained_files: 73
+  logical_bytes: 137113
+formats: [".bat",".fil",".tie"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

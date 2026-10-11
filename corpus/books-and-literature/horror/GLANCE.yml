@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Mythos/story bibliography compiled by D. Timothy Burall, with authored articles and a retained browser2 reference program."
+why: "Historical bibliography and references; source attribution is preserved."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - HORROR
+counts:
+  retained_files: 57
+  logical_bytes: 201380
+formats: [".bat",".exe",".fil",".p",".s",".tie"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

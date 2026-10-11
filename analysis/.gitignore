@@ -1,0 +1,22 @@
+# Local audit manifests enumerate excluded private material. Publish a fresh
+# inventory of the curated collection instead of committing these raw reports.
+/inventory.json
+/inventory.tsv
+/summary.json
+/duplicates.json
+/duplicates.tsv
+/SHA256SUMS
+/zip-members.json
+/archive-only.json
+/research.json
+/directory-map.md
+/curation.json
+/curation.tsv
+/before-dedup/
+/deduplication-plan.json
+/deduplication-log.json
+/semantic-catalog.json
+/semantic-map.md
+/recovered-book.json
+/reading-room.html
+/relocation-log.json

@@ -1,0 +1,8 @@
+what: "Historical HyperTIES collections: personal-history"
+status: recovering
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  version_view: ../../docs/by-version.md
+  format_view: ../../docs/by-storage.md
+collections: ["family"]

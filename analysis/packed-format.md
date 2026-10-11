@@ -1,0 +1,72 @@
+# Classic packed articles: verified LZW dialect
+
+Implementation: [shared TypeScript decoder](../tools/src/packed.ts).
+Tests: [packed fixtures and corpus checks](packed.test.mjs).
+
+## Observed layout
+
+```text
+record[0..11]   = first three loose-article offset words, copied unchanged
+record[12..]    = LSB-first LZW bitstream
+first code     = 256 (clear/reset)
+literal codes  = 0..255
+end code       = 257
+dictionary     = begins at 258
+code width     = starts at 9, grows through 12
+```
+
+After emitting a string, add `previous + firstByte(current)` to the dictionary.
+The special code equal to the next dictionary slot means
+`previous + firstByte(previous)`. Increase width when the next available slot
+reaches `2^width` after insertion. A clear code resets width and dictionary.
+
+The reconstructed record consists of the 12-byte prefix followed by the
+decompressed bytes. It is then validated by the ordinary article reader.
+Output is bounded (default 8 MiB per record); invalid codes, absent clear/end
+markers and output-limit violations produce explicit errors.
+
+This is a classic per-record stream, not ZIP/ARC and not an instruction to run a
+historical browser. Stored byte ranges come from the plus-1.0 index. Do not use
+decoded section offsets to slice compressed bytes.
+
+## Evidence
+
+- **218 HHO records** decode with valid section boundaries and all six terminal
+  section delimiters.
+- Each has only 0..7 trailing bits after its end code.
+- **49 ACM records** decode byte-for-byte to their original `.FIL` files:
+  headers, bodies, reference lists and trailers all match.
+- All six hyper-joke records are recovered, including the ordered choice targets.
+- The same TypeScript code decodes a real joke record in Node and the browser;
+  the browser test confirms no `Buffer` global is present.
+
+This gives stronger validation than merely generating recognizable prose.
+
+## Unsupported second codec
+
+The book has 30 additional records whose leading status/flag byte is `02`,
+rather than `03` for the 218 records successfully decoded here. They do not begin
+with the LZW clear code at the tested position. Their codec is **not identified
+yet**; do not call them uncompressed or corrupt.
+
+The remaining set includes ASCII, brief descriptions, buttons, icons, hyperhumor
+and other concepts. The LZW decoder explicitly rejects them. The book export
+retains their indexed identities and errors, and the reading room presents them
+as unrecovered records rather than omitting them.
+
+Next steps: compare these records with same-format loose inputs, inspect graphics
+and status conventions, and test a second codec against known bytes. Do not
+retrospectively remove packed originals because most of the text can now be read.
+
+## Reading-room interpretation
+
+The prototype preserves raw markup in a disclosure panel and shows unimplemented
+commands visibly in the access body. It supports title/alias search, article
+navigation, previews on keyboard focus/hover, fragment history and explicit
+unresolved targets.
+
+It does **not** emulate original page layout, exact reveal timing, fonts,
+graphics, printing or external-program behavior. CP437 is a named access profile,
+not universal encoding detection. Historical text is not silently corrected.
+The next renderer can interpret commands once their grammar and semantics are
+tested.

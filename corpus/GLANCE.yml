@@ -1,0 +1,8 @@
+what: Intact historical databases grouped by broad subject, with overlapping format/version views.
+status: recovering
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  catalog: ../docs/collections.md
+  versions: ../docs/by-version.md
+  formats: ../docs/by-storage.md

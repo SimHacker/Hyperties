@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Related user-interface corpus with additional/different actions and articles, plus a historical ARC package."
+why: "Remaining ARC matches loose member names/sizes but has not been decompressed/hash-verified; retained as unresolved evidence."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - HTUISM
+counts:
+  retained_files: 34
+  logical_bytes: 630939
+formats: [".arc",".fil",".new",".pcx",".sys",".tie"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

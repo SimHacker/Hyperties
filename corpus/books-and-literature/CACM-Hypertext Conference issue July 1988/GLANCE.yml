@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Electronic edition of the July 1988 Communications of the ACM special hypertext section, including authored articles, bibliography, portraits and figures."
+why: "A landmark early hypertext corpus; loose articles preserve original links and markup."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - CACM-HYPERTEXT-CONFERENCE-ISSUE-JULY-1988
+counts:
+  retained_files: 359
+  logical_bytes: 1434080
+formats: [".bat",".fil",".new",".p",".pcx",".s",".sys",".tie",".txt"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

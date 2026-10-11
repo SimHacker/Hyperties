@@ -1,0 +1,8 @@
+what: "Historical HyperTIES collections: program-examples"
+status: recovering
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  version_view: ../../docs/by-version.md
+  format_view: ../../docs/by-storage.md
+collections: ["pascal","program"]

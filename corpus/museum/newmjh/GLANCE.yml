@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Later museum packed records and companion stores, still images, FLI animation/media actions and browser 3.0.5.100."
+why: "Crown jewel: complementary to the earlier loose source, not a redundant copy. Later HDT recovery remains pending."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - NEWMJH
+counts:
+  retained_files: 87
+  logical_bytes: 7124817
+formats: ["(none)",".bat",".exe",".fli",".gif",".hdt",".hff",".hin",".hln",".hnc",".hol",".hsd",".huc",".pcc",".pcx",".txt"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

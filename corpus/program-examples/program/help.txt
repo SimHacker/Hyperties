@@ -1,0 +1,26 @@
+ ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+ บ    HELP :    Using Hyperties to browse Hypertext Hands-On!          บ
+ บอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออบ
+ บ                                                                     บ
+ บ    Hyperties will let you browse a database of articles.  You may   บ
+ บ    retrieve additional information on any term which is highlighted บ
+ บ    by placing the 'selector bar' on it and pressing the ENTER key.  บ
+ บ                             --------                                บ
+ บ    Use the ARROW KEYS to move the selector bar around.  Press       บ
+ บ    ENTER when it is on the reference or command you want to select. บ
+ บ                             --------                                บ
+ บ    If the QUIT command is not on the screen, go to EXTRA to quit.   บ
+ บ                                                                     บ
+ บ---------------------------------------------------------------------บ
+ บ    SHORTCUTS:                                                       บ
+ บ    When you type a letter, the selector bar jumps to the next       บ
+ บ    highlighted term beginning with that letter.                     บ
+ บ                                                                     บ
+ บ    Home - First page of article        PgUp - Previous page         บ
+ บ    End  - Last page of article         PgDn - Next page             บ
+ บ    CTRL E - Extra                      CTRL Q - Quit (also F10)     บ
+ บ    ? - Help (also CTRL H)              CTRL P - Print               บ
+ บ                       ESC - Previous Article                        บ
+ ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+

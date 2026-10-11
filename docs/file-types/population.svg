@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="710" height="1450" viewBox="0 0 710 1450" role="img" aria-labelledby="title description">
+<!-- Generated format registry: analysis/document-formats.mjs -->
+<title id="title">Historical file-type populations: 2513 publication candidates</title>
+<desc id="description">All 50 surveyed suffix categories, descending by file count on a linear scale. Exact labels accompany every bar. Full data and scope are in population.md.</desc>
+<rect width="710" height="1450" fill="#ffffff"/>
+<g fill="#182b3a" font-family="monospace" font-size="13">
+<text x="20" y="25" font-size="17">File-type population: publication candidates</text>
+<text x="20" y="48">2513 files | linear scale | maximum 1658</text>
+<text x="100" y="68">0</text><text x="600" y="68" text-anchor="end">1658</text>
+<text x="85" y="92" text-anchor="end">.fil</text><rect x="100" y="79" width="500.000" height="18" fill="#286b9c"/><text x="620" y="92">1658</text>
+<text x="85" y="119" text-anchor="end">.pcx</text><rect x="100" y="106" width="103.136" height="18" fill="#286b9c"/><text x="620" y="119">342</text>
+<text x="85" y="146" text-anchor="end">.tie</text><rect x="100" y="133" width="31.966" height="18" fill="#286b9c"/><text x="620" y="146">106</text>
+<text x="85" y="173" text-anchor="end">.txt</text><rect x="100" y="160" width="14.475" height="18" fill="#286b9c"/><text x="620" y="173">48</text>
+<text x="85" y="200" text-anchor="end">.bat</text><rect x="100" y="187" width="12.666" height="18" fill="#286b9c"/><text x="620" y="200">42</text>
+<text x="85" y="227" text-anchor="end">.grb</text><rect x="100" y="214" width="12.666" height="18" fill="#286b9c"/><text x="620" y="227">42</text>
+<text x="85" y="254" text-anchor="end">.stl</text><rect x="100" y="241" width="9.650" height="18" fill="#286b9c"/><text x="620" y="254">32</text>
+<text x="85" y="281" text-anchor="end">.elb</text><rect x="100" y="268" width="7.841" height="18" fill="#286b9c"/><text x="620" y="281">26</text>
+<text x="85" y="308" text-anchor="end">.pcc</text><rect x="100" y="295" width="6.936" height="18" fill="#286b9c"/><text x="620" y="308">23</text>
+<text x="85" y="335" text-anchor="end">.p</text><rect x="100" y="322" width="6.031" height="18" fill="#286b9c"/><text x="620" y="335">20</text>
+<text x="85" y="362" text-anchor="end">.s</text><rect x="100" y="349" width="6.031" height="18" fill="#286b9c"/><text x="620" y="362">20</text>
+<text x="85" y="389" text-anchor="end">.sys</text><rect x="100" y="376" width="5.428" height="18" fill="#286b9c"/><text x="620" y="389">18</text>
+<text x="85" y="416" text-anchor="end">.new</text><rect x="100" y="403" width="5.127" height="18" fill="#286b9c"/><text x="620" y="416">17</text>
+<text x="85" y="443" text-anchor="end">.exe</text><rect x="100" y="430" width="4.524" height="18" fill="#286b9c"/><text x="620" y="443">15</text>
+<text x="85" y="470" text-anchor="end">(none)</text><rect x="100" y="457" width="3.317" height="18" fill="#286b9c"/><text x="620" y="470">11</text>
+<text x="85" y="497" text-anchor="end">.pbb</text><rect x="100" y="484" width="2.714" height="18" fill="#286b9c"/><text x="620" y="497">9</text>
+<text x="85" y="524" text-anchor="end">.asc</text><rect x="100" y="511" width="2.413" height="18" fill="#286b9c"/><text x="620" y="524">8</text>
+<text x="85" y="551" text-anchor="end">.gif</text><rect x="100" y="538" width="2.111" height="18" fill="#286b9c"/><text x="620" y="551">7</text>
+<text x="85" y="578" text-anchor="end">.fli</text><rect x="100" y="565" width="1.809" height="18" fill="#286b9c"/><text x="620" y="578">6</text>
+<text x="85" y="605" text-anchor="end">.pic</text><rect x="100" y="592" width="1.809" height="18" fill="#286b9c"/><text x="620" y="605">6</text>
+<text x="85" y="632" text-anchor="end">.hdt</text><rect x="100" y="619" width="1.508" height="18" fill="#286b9c"/><text x="620" y="632">5</text>
+<text x="85" y="659" text-anchor="end">.hff</text><rect x="100" y="646" width="1.508" height="18" fill="#286b9c"/><text x="620" y="659">5</text>
+<text x="85" y="686" text-anchor="end">.hin</text><rect x="100" y="673" width="1.508" height="18" fill="#286b9c"/><text x="620" y="686">5</text>
+<text x="85" y="713" text-anchor="end">.hol</text><rect x="100" y="700" width="1.508" height="18" fill="#286b9c"/><text x="620" y="713">5</text>
+<text x="85" y="740" text-anchor="end">.huc</text><rect x="100" y="727" width="1.508" height="18" fill="#286b9c"/><text x="620" y="740">5</text>
+<text x="85" y="767" text-anchor="end">.hln</text><rect x="100" y="754" width="1.206" height="18" fill="#286b9c"/><text x="620" y="767">4</text>
+<text x="85" y="794" text-anchor="end">.hnc</text><rect x="100" y="781" width="1.206" height="18" fill="#286b9c"/><text x="620" y="794">4</text>
+<text x="85" y="821" text-anchor="end">.hsd</text><rect x="100" y="808" width="1.206" height="18" fill="#286b9c"/><text x="620" y="821">4</text>
+<text x="85" y="848" text-anchor="end">.tgf</text><rect x="100" y="835" width="0.905" height="18" fill="#286b9c"/><text x="620" y="848">3</text>
+<text x="85" y="875" text-anchor="end">.msg</text><rect x="100" y="862" width="0.603" height="18" fill="#286b9c"/><text x="620" y="875">2</text>
+<text x="85" y="902" text-anchor="end">.pal</text><rect x="100" y="889" width="0.603" height="18" fill="#286b9c"/><text x="620" y="902">2</text>
+<text x="85" y="929" text-anchor="end">.pdf</text><rect x="100" y="916" width="0.603" height="18" fill="#286b9c"/><text x="620" y="929">2</text>
+<text x="85" y="956" text-anchor="end">.arc</text><rect x="100" y="943" width="0.302" height="18" fill="#286b9c"/><text x="620" y="956">1</text>
+<text x="85" y="983" text-anchor="end">.com</text><rect x="100" y="970" width="0.302" height="18" fill="#286b9c"/><text x="620" y="983">1</text>
+<text x="85" y="1010" text-anchor="end">.doc</text><rect x="100" y="997" width="0.302" height="18" fill="#286b9c"/><text x="620" y="1010">1</text>
+<text x="85" y="1037" text-anchor="end">.docx</text><rect x="100" y="1024" width="0.302" height="18" fill="#286b9c"/><text x="620" y="1037">1</text>
+<text x="85" y="1064" text-anchor="end">.gra</text><rect x="100" y="1051" width="0.302" height="18" fill="#286b9c"/><text x="620" y="1064">1</text>
+<text x="85" y="1091" text-anchor="end">.hph</text><rect x="100" y="1078" width="0.302" height="18" fill="#286b9c"/><text x="620" y="1091">1</text>
+<text x="85" y="1118" text-anchor="end">.ori</text><rect x="100" y="1105" width="0.302" height="18" fill="#286b9c"/><text x="620" y="1118">1</text>
+<text x="85" y="1145" text-anchor="end">.pcl</text><rect x="100" y="1132" width="0.302" height="18" fill="#286b9c"/><text x="620" y="1145">1</text>
+<text x="85" y="1172" text-anchor="end">.prf</text><rect x="100" y="1159" width="0.302" height="18" fill="#286b9c"/><text x="620" y="1172">1</text>
+<text x="85" y="1199" text-anchor="end">.rfs</text><rect x="100" y="1186" width="0.302" height="18" fill="#286b9c"/><text x="620" y="1199">1</text>
+<text x="85" y="1226" text-anchor="end">.tif</text><rect x="100" y="1213" width="0.302" height="18" fill="#286b9c"/><text x="620" y="1226">1</text>
+<text x="85" y="1253" text-anchor="end">.$$$</text><rect x="100" y="1240" width="0.000" height="18" fill="#286b9c"/><text x="620" y="1253">0</text>
+<text x="85" y="1280" text-anchor="end">.lnk</text><rect x="100" y="1267" width="0.000" height="18" fill="#286b9c"/><text x="620" y="1280">0</text>
+<text x="85" y="1307" text-anchor="end">.log</text><rect x="100" y="1294" width="0.000" height="18" fill="#286b9c"/><text x="620" y="1307">0</text>
+<text x="85" y="1334" text-anchor="end">.md</text><rect x="100" y="1321" width="0.000" height="18" fill="#286b9c"/><text x="620" y="1334">0</text>
+<text x="85" y="1361" text-anchor="end">.pif</text><rect x="100" y="1348" width="0.000" height="18" fill="#286b9c"/><text x="620" y="1361">0</text>
+<text x="85" y="1388" text-anchor="end">.set</text><rect x="100" y="1375" width="0.000" height="18" fill="#286b9c"/><text x="620" y="1388">0</text>
+<text x="85" y="1415" text-anchor="end">.zip</text><rect x="100" y="1402" width="0.000" height="18" fill="#286b9c"/><text x="620" y="1415">0</text>
+</g></svg>

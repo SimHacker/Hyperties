@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Later packed tour with browser 3.0.3.20c and companion media/indexes."
+why: "Directory label is not an independently verified release date; compare editions semantically."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - TOUR7-91
+counts:
+  retained_files: 38
+  logical_bytes: 1360942
+formats: [".bat",".exe",".hdt",".hff",".hin",".hln",".hnc",".hol",".hsd",".huc",".pal",".pcc",".pcx"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md

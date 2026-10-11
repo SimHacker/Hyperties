@@ -1,0 +1,24 @@
+# <!-- Generated collection documentation: analysis/document-collections.mjs -->
+status: recovering
+what: "Amateur landscaping/plants corpus with article and ASC import examples."
+why: "Small source/encoding fixtures; historical advice, not a current horticulture reference."
+k_lines:
+  activates:
+    - HYPERTIES
+    - HISTORICAL-HYPERTEXT
+    - LANDSCAP
+counts:
+  retained_files: 63
+  logical_bytes: 75071
+formats: ["(none)",".asc",".bat",".fil",".p",".s",".tie"]
+interfaces:
+  overview: README.md
+  index: INDEX.md
+  format_map: ../../../docs/formats.md
+constraints:
+  - Preserve original byte offsets, basenames and encoding evidence.
+  - Do not execute historical programs or external actions by default.
+  - Report unsupported formats and unresolved links explicitly.
+see_also:
+  - ../../../docs/collections.md
+  - ../../../docs/import-process.md
