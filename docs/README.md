@@ -8,15 +8,28 @@ what hypertext could be. We are recovering those structures so they can be
 read, studied and reimagined today.
 
 This is an October 2026 work-in-progress, not a claim of complete restoration.
-The pages here render directly on GitHub. The repository includes the retained
-source collections and modern tools; the complete original backup and generated
-local access exports are not part of the publication.
 
-## A five-minute tour
+## Read it yourself
+
+**[Open the HyperTIES reading room](https://hyperties.org/archive/reading-room/)**
+in any browser — no account or installation needed. Click highlighted links to
+follow them; hover or focus a link to see its short description first, as
+HyperTIES did. Search and the article list are on the left.
+
+- **[Tell the hypertext joke](https://hyperties.org/archive/reading-room/#book:EXAMPLFP)**
+  and choose a response.
+- **[Explore the book's concepts](https://hyperties.org/archive/reading-room/#book:CONCEPTS)**,
+  with the original 1988 screen layout.
+- Browse the earlier Holocaust museum encyclopedia's 402 articles.
+
+The text comes straight from the original records. It is not yet a faithful
+recreation of historical fonts, graphics or page timing.
+
+## A five-minute tour of what we found
 
 1. **[The hypertext joke](discoveries.md#the-hypertext-joke):** six recovered
    records, four alternate responses, and further links. The interaction is part
-   of the joke.
+   of the joke. [Try it](https://hyperties.org/archive/reading-room/#book:EXAMPLFP).
 2. **[The book](discoveries.md#hypertext-on-hypertext):** 218 of 248 indexed
    records decoded; 30 remain explicit recovery tasks.
 3. **[The museum](discoveries.md#jewish-heritage-and-the-holocaust):** 402 earlier
@@ -62,6 +75,6 @@ reveal timing. The remaining codec, later museum stores and some target mappings
 are unresolved. Historical text is not silently rewritten and missing content
 is not invented.
 
-The local reading-room prototype already permits linked exploration and
-previews. These GitHub pages are the introductory presentation; a separately
-reviewed access edition can follow.
+The [reading room](https://hyperties.org/archive/reading-room/) permits linked
+exploration and previews today. It is generated from the originals in this
+repository by `analysis/build-reading-room.mjs` and published on hyperties.org.

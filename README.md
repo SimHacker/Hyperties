@@ -6,6 +6,13 @@ software, databases, media and documents supplied by Ben Shneiderman.
 
 ## Start here
 
+**[Read the recovered book and museum online: the HyperTIES reading room](https://hyperties.org/archive/reading-room/)**
+— follow the links in *Hypertext on Hypertext* and the Holocaust museum
+encyclopedia in your browser. Begin with
+[the hypertext joke](https://hyperties.org/archive/reading-room/#book:EXAMPLFP).
+
+**[Ben, welcome back — a five-minute tour](docs/README.md)**
+
 Top-level layers: [corpus](corpus/README.md), [reference](reference/README.md),
 [docs](docs/README.md), [analysis](analysis/README.md) and [tools](tools/README.md).
 Use the [repository index](INDEX.md), [layout/path map](docs/layout.md),
@@ -13,8 +20,6 @@ Use the [repository index](INDEX.md), [layout/path map](docs/layout.md),
 follow overlapping classifications without fragmenting historical databases.
 The [future NeWS/webtop integration notes](docs/future-integration.md) keep room
 for Don's edition and modern application stack without migrating them now.
-
-**[Ben, welcome back — a five-minute tour](docs/README.md)**
 
 | Guide | What you will find |
 |---|---|
