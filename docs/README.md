@@ -288,10 +288,18 @@ puts it, **tribute, accessibility and fun belong in the front seat.**
 
 ## What we would love to hear from you
 
-### Advice on institutional support
+### Support and collaboration across the restoration projects
 
-Ben, I would also value your advice on finding institutional support for this
-work. **I am not asking you for a personal financial contribution.** The
+Ben, could you help me think about **support and collaboration for this whole
+family of historical restoration projects**—HyperTIES and the museum database,
+Heinz's PIXIE and the PDP-7 environment, touchscreen interaction demonstrations,
+and the shared tools for accessible, embodied historical exhibits?
+These are connected efforts, not separate requests to fund individual ports.
+I would value your advice on institutions, grants, collaborators and introductions
+that could help sustain the broader mission, through both financial support
+and exchanges of material and expertise.
+
+**I am not asking you for a personal financial contribution.** The
 [PIXIE restoration story's cost and support discussion](https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/PIXIE-RESTORATION.md#what-it-cost)
 explains the resources behind the work and how support helps keep the resulting
 software freely available.
