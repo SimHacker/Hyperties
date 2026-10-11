@@ -298,12 +298,30 @@ software freely available.
 
 Do you think there are grants or sponsorship opportunities through ACM,
 SIGCHI or related CHI programs, the Holocaust museum, or computer history museums
-you know and work with? Your guidance on suitable programs, institutional
+you know and work with? The University of Maryland could be a natural
+collaborator too: the Computer Science department, university libraries and HCIL
+may have interests in preserving and extending this research history.
+Your guidance on suitable programs, institutional
 contacts or introductions would be enormously helpful. We would want to shape
 a proposal around real institutional needs: preserving software and research
 history, accessible exhibits, educational demonstrations and reusable public
 resources. These are possible avenues to investigate, not funding commitments
 or partnerships already in place.
+
+**Collaboration need not be only financial.** Departments, libraries, labs and
+museums could share and exchange content, expertise and archival material:
+papers, design notes, oral histories, photographs, recordings, source or binary
+code, and disk images. We can contribute restored software, documented formats,
+accessible readers and reusable exhibits in return. Permissions, attribution,
+privacy and publication terms should be agreed for each contribution.
+
+This is the same reciprocal approach I am proposing to computer museums with
+PDP-7s: take and share photographs and measurements so we can build accurate
+3D models, and help recover any surviving software, binaries or disk and tape
+images. The resulting digital models and tools can serve the contributing
+institutions as well as the wider public. For Maryland and HCIL, the equivalent
+could be recovering the people, research, content and physical installations
+behind HyperTIES and the touchscreen work—not simply funding a software port.
 
 ### Historical and design questions
 
