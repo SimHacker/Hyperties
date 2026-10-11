@@ -417,6 +417,24 @@ and the historical system.
 
 ### Support and collaboration across the restoration projects
 
+**This is a stone soup the community can contribute to.** I think of OLPC and
+the way we convinced EA to donate SimCity source code for that educational
+mission. A shared purpose and something tangible to build on can invite
+contributions no single person could supply alone.
+
+There is a wonderful recent example: I told Mitch Bradley how great it would
+be to have a PDP-7 Forth with turtle graphics for the emulator, and convinced
+him to make one. He did it in one day. You can
+[try the Forth in the cabinet](https://hyperties.org/cabinet/forth/).
+That is the spirit I want to foster: an invitation that lets someone bring
+their own expertise, authorship and enthusiasm to the shared project.
+
+Not every contribution needs to be money or a whole new program. A photograph,
+a tape, a recovered source file, a correction, a remembered design decision,
+a teaching example or an introduction can become the ingredient that makes
+another part possible. We should credit those contributions and keep the
+results useful to the people and institutions who help create them.
+
 Ben, could you help me think about **support and collaboration for this whole
 family of historical restoration projects**—HyperTIES and the museum database,
 Heinz's PIXIE and the PDP-7 environment, Turing machines and philosophy courseware,
