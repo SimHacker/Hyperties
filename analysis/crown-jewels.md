@@ -139,6 +139,26 @@ simulated consciousness: owning the software does not settle responsibility
 for the human history it presents. Historical and curatorial judgment remain
 necessary even when conversion, animation and publication become easy.
 
+### Reviewed pronunciation is part of respectful access
+
+Names from different languages should not all be read through an unexamined
+English speech voice. Preserve original spellings while recording reviewed
+language and pronunciation annotations in the access layer, with evidence,
+attribution and a correction path. A suitable voice must be auditioned:
+language matching alone does not establish a correct pronunciation.
+
+ML can suggest candidates for review, but must not determine a person's
+language, identity or preferred pronunciation from their name alone. Relevant
+language specialists, custodians and, where appropriate, people or families
+represented should guide disputed or uncertain cases. Missing voice support
+and unresolved pronunciations must be exposed rather than hidden by a default.
+
+This is a planned workflow, not a capability of the current reader.
+The [multilingual speech design](../docs/architecture.md#planned-multilingual-speech-and-pronunciation-review)
+describes portable annotations, device-specific voice selection and human
+listening review. Correctly speaking a name is part of the restoration's
+responsibility toward people, not merely an audio-polish task.
+
 ## Useful questions for Ben's oral history
 
 These are future interview prompts, not a request to block current work:
