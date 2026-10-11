@@ -46,6 +46,19 @@ nuggets is a natural next step.
 
 ## Keep the layout open
 
+The educational direction also includes a proposed universal Turing-machine
+cabinet device, with TypeScript renderers, editors, debuggers and live-coding
+tools sharing its running state. It could participate in a shared-memory
+multi-processor environment, taking architectural inspiration from the PDP-7
+and Type 340's connected execution engines. Don reports recovering Christopher
+Cherniak's teaching simulator, its data files and other philosophy-of-computers
+programs, as well as Marvin Minsky's TECO universal Turing machine. Permissions
+and attribution must be established before publishing or adapting those
+materials; they have not been imported into this repository.
+The [courseware discussion for Ben](README.md#philosophy-turing-machines-and-living-courseware)
+connects this to Maryland's Philosophy department and the 1987 NeWS approach of
+interactive applets integrated with authored pages.
+
 A proposed embodied-interaction exhibit would demonstrate touchscreen lift-off
 selection with Sims-style portrayals of Ben Shneiderman, Catherine Plaisant and
 Rich Potter at a touchscreen IBM PC. The

@@ -288,11 +288,46 @@ puts it, **tribute, accessibility and fun belong in the front seat.**
 
 ## What we would love to hear from you
 
+### Philosophy, Turing machines, and living courseware
+
+There is another Maryland connection I would love to bring into this work:
+the Philosophy department. I took a course from Christopher Cherniak, who
+developed a Turing-machine simulator. I have recovered his emulator and all
+its data files, along with other programs he used to teach philosophy of
+computers. **I would like permission to use those materials with my own universal
+Turing-machine emulator.** Recovery is not permission to republish or adapt;
+we should establish the appropriate permissions and attribution before doing so.
+I have also recovered Marvin Minsky's TECO universal Turing machine, another
+related historical artifact whose provenance and reuse terms need to be preserved.
+
+The design I want to explore is a **virtual hardware device in the emulated
+cabinet**, not an isolated animation. The TypeScript emulator layer could
+support different renderers, editors, debuggers and live-coding tools around
+the same running Turing machine. Its execution and state could also participate
+in a shared-memory parallel-computing environment, analogous in architectural
+spirit to the PDP-7 working with the Type 340 display processor: separate
+execution engines with connected state, not merely pictures of machines.
+This is a proposed architecture, not functionality we claim is complete.
+
+All of this belongs in educational courseware: read an explanation, operate
+the machine within the page, inspect its state, edit its rules and see the
+consequences. HyperTIES is a natural home for that combination of authored
+explanation and interactive exploration. It continues the direction we were
+exploring with NeWS in 1987—interactive applets integrated with the document,
+rather than sending the reader away to a disconnected application.
+
+Ben, could you help identify the right people in Philosophy and elsewhere at
+Maryland to discuss permissions, historical context and collaboration?
+The teaching materials, their authors' intentions and their educational use
+matter as much as the emulator. This could connect philosophy, computer science,
+HCI, libraries and museums through a common set of reusable interactive exhibits.
+
 ### Support and collaboration across the restoration projects
 
 Ben, could you help me think about **support and collaboration for this whole
 family of historical restoration projects**—HyperTIES and the museum database,
-Heinz's PIXIE and the PDP-7 environment, touchscreen interaction demonstrations,
+Heinz's PIXIE and the PDP-7 environment, Turing machines and philosophy courseware,
+touchscreen interaction demonstrations,
 and the shared tools for accessible, embodied historical exhibits?
 These are connected efforts, not separate requests to fund individual ports.
 I would value your advice on institutions, grants, collaborators and introductions
@@ -307,7 +342,7 @@ software freely available.
 Do you think there are grants or sponsorship opportunities through ACM,
 SIGCHI or related CHI programs, the Holocaust museum, or computer history museums
 you know and work with? The University of Maryland could be a natural
-collaborator too: the Computer Science department, university libraries and HCIL
+collaborator too: the Computer Science and Philosophy departments, university libraries and HCIL
 may have interests in preserving and extending this research history.
 Your guidance on suitable programs, institutional
 contacts or introductions would be enormously helpful. We would want to shape
