@@ -288,6 +288,25 @@ puts it, **tribute, accessibility and fun belong in the front seat.**
 
 ## What we would love to hear from you
 
+### Advice on institutional support
+
+Ben, I would also value your advice on finding institutional support for this
+work. **I am not asking you for a personal financial contribution.** The
+[PIXIE restoration story's cost and support discussion](https://github.com/SimHacker/WillWrightShowForFood/blob/main/packages/cabinet/PIXIE-RESTORATION.md#what-it-cost)
+explains the resources behind the work and how support helps keep the resulting
+software freely available.
+
+Do you think there are grants or sponsorship opportunities through ACM,
+SIGCHI or related CHI programs, the Holocaust museum, or computer history museums
+you know and work with? Your guidance on suitable programs, institutional
+contacts or introductions would be enormously helpful. We would want to shape
+a proposal around real institutional needs: preserving software and research
+history, accessible exhibits, educational demonstrations and reusable public
+resources. These are possible avenues to investigate, not funding commitments
+or partnerships already in place.
+
+### Historical and design questions
+
 - What was the exact book title, edition and authorship?
 - Who created the hyper-joke, and when and where was it first demonstrated?
   Don recalls it as the first hypertext joke; we want to preserve the story with
