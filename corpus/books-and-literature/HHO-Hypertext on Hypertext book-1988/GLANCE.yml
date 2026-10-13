@@ -1,7 +1,7 @@
 # <!-- Generated collection documentation: analysis/document-collections.mjs -->
 status: recovering
-what: "Packed book database with chapter navigation, concepts, personalities, design examples and the hypertext joke."
-why: "Crown jewel: all 248 indexed records decoded: 218 LZW and 30 adaptive arithmetic. Exact edition/title to confirm with Ben."
+what: "Packed IBM-PC book database with chapter navigation, concepts, personalities, design examples and the hypertext joke. The folder’s legacy HHO name is not its bibliographic title."
+why: "Crown jewel: all 248 indexed records decoded: 218 LZW and 30 adaptive arithmetic. Strongly matched to Shneiderman and Kearsley’s 1989 Hypertext Hands-On!; exact disk provenance is unverified."
 k_lines:
   activates:
     - HYPERTIES

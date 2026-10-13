@@ -1,5 +1,5 @@
 <!-- Generated collection documentation: analysis/document-collections.mjs -->
-# File index: CACM hypertext special section, July 1988
+# File index: ACM Hypertext on Hypertext: Hyperties/PC
 
 [Overview](README.md) · [Glance](GLANCE.yml)
 

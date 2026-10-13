@@ -46,8 +46,10 @@ recreation of historical fonts, graphics or page timing.
 1. **[The hypertext joke](discoveries.md#the-hypertext-joke):** six recovered
    records, four alternate responses, and further links. The interaction is part
    of the joke. [Try it](https://hyperties.org/archive/reading-room/#book:EXAMPLFP).
-2. **[The book](discoveries.md#hypertext-on-hypertext):** all 248 indexed
-   records decoded, using LZW and the newly recovered adaptive arithmetic codec.
+2. **[The *Hypertext Hands-On!* book](discoveries.md#hypertext-on-hypertext):**
+   all 248 indexed records decoded, using LZW and the newly recovered adaptive
+   arithmetic codec. This is distinct from ACM's *Hypertext on Hypertext*
+   conference publication, the first modern edition target.
 3. **[The museum](discoveries.md#jewish-heritage-and-the-holocaust):** 402 earlier
    articles, with thematic and chronological navigation preserved as evidence.
 4. **[The formats](formats.md):** tested byte-level definitions, including the
@@ -114,14 +116,36 @@ future connections, not migrations already performed.
 | [Restoration priorities for the crown jewels](../analysis/crown-jewels.md) | The book, hyper-joke and museum as authored experiences; historical framing, oral-history questions and next milestones |
 | [One reusable core, many ways to read](architecture.md) | The architectural intention: conversions and modern readers share knowledge rather than grow incompatible implementations |
 | [Standalone nuggets, transclusion and future NeWS/webtop connections](future-integration.md) | How recovered history can become reusable web publications and inform a living HyperTIES |
+| [Task-shaped interaction and persistent view overlays](task-shaped-interaction.md) | Research context and design implications for webtop workspaces people can save, share, inspect and adapt |
 | [Discoveries and open questions](discoveries.md) | What we can demonstrate now, what remains uncertain, and where your memories can change our understanding |
 | [The historical timeline](../analysis/timeline.md) | Evidence for the sequence of editions, projects and surviving documents, with uncertainty retained |
 
-The immediate priorities are graphics and their placement, later museum
-formats, and checking recovered navigation against the intended experience.
-Then come smaller independently readable publications and comparisons between
-editions. Successful decompression is a milestone, not the completion of
-historical restoration.
+Following our October 12 conversation, the first product focus is a polished,
+modern edition of ACM's 1988 *Hypertext on Hypertext*, the interactive
+publication of the July 1988 *Communications of the ACM* hypertext special
+section. The [Hypertext '89 panel paper](https://doi.org/10.1145/74224.74255)
+identifies its three versions as Hyperties/IBM PC,
+HyperCard/Macintosh and KMS/Sun-Apollo. This is not a pixel-by-pixel or
+click-by-click reproduction. It should preserve linked reading and
+short-description previews while providing the accessibility and usability of
+the new HyperTIES we are developing. The 248-record *Hypertext Hands-On!*
+corpus is a separate book/software product.
+
+The edition should also curate ideas across HyperTIES versions. The NeWS
+edition made room for embedded interactive programs, including font and color
+selection pie menus and a simple spinning earth. We want to explore that spirit
+with modern, integrated examples such as the PDP-10 emulator and a fresh
+implementation of the pie-menu interactions—not just recreate old screenshots.
+The original publication, reconstructed historical behavior, and newly authored
+interpretation should be clearly distinguished.
+
+The book becomes the concrete design and implementation target for the modern
+HyperTIES system. Graphics recovery, edition comparison and the other
+collections remain valuable, but are now in service of this first polished
+publication rather than competing first milestones. The ACM catalog's
+[Sun and Apollo edition record](https://dl.acm.org/doi/book/10.1145/51120)
+is dated January 2000; that catalog date does not yet establish when that
+version was created or how it relates to the 1988 Macintosh and PC editions.
 
 ## Heinz, museums, and bringing the people back into the picture
 
@@ -570,7 +594,10 @@ definitions, evidence and unknowns.
   We also have the [Mozilla/Hacker News record](discoveries.md#existing-record-mozilla-article-and-hacker-news-discussion),
   including Elise Blanchard's interview with you and Don's quotation of your
   recollections, plus discussion of early browser-color evidence.
-- What was the exact book title, edition and authorship?
+- Can Ben confirm the 248-record PC corpus's exact *Hypertext Hands-On!*
+  package/disk provenance and the authorship of its hyper-joke?
+- Which missing source disks, assets or production notes survive for ACM's
+  three *Hypertext on Hypertext* platform versions?
 - Who created the hyper-joke, and when and where was it first demonstrated?
   Don recalls it as the first hypertext joke; we want to preserve the story with
   your confirmation rather than make an unsupported priority claim.

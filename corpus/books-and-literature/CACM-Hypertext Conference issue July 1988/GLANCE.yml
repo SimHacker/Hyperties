@@ -1,7 +1,7 @@
 # <!-- Generated collection documentation: analysis/document-collections.mjs -->
 status: recovering
-what: "Electronic edition of the July 1988 Communications of the ACM special hypertext section, including authored articles, bibliography, portraits and figures."
-why: "A landmark early hypertext corpus; loose articles preserve original links and markup."
+what: "Extracted Hyperties/IBM-PC files for ACM’s Fall 1988 Hypertext on Hypertext, based on the July 1988 Communications of the ACM special hypertext section. The 307 parsed article files match Jakob Nielsen’s contemporary node count; his trip report also describes added IRIS bibliography and Hypertext ’87 report excerpts. Figures were redrawn for CGA, sacrificing fidelity for compatibility; not a raw floppy image."
+why: "One of three independently developed platform versions identified in the Hypertext ’89 panel. A landmark early hypertext corpus; loose articles preserve original links and markup."
 k_lines:
   activates:
     - HYPERTIES

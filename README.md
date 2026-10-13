@@ -4,11 +4,45 @@ Documenting and reincarnating the pioneering hypertext system developed at the
 University of Maryland and distributed by Cognetics Corporation, using historical
 software, databases, media and documents supplied by Ben Shneiderman.
 
+## First product focus: a polished Hypertext on Hypertext
+
+Our first major product is a polished, modern edition of ACM's 1988
+**Hypertext on Hypertext**: an interactive publication of the July 1988
+*Communications of the ACM* hypertext special section. The Hypertext '89 panel,
+[“Lessons Learned From the ACM Hypertext on Hypertext Project”](https://doi.org/10.1145/74224.74255),
+identifies three versions: Hyperties/IBM PC, HyperCard/Macintosh and
+KMS/Sun-Apollo. The aim is not to reproduce the old interface pixel by pixel
+or click by click. We are building the next version of HyperTIES: a comfortable,
+accessible way to read the publication that preserves its authored links and
+previews, while drawing on strong ideas from across HyperTIES' history.
+
+The separate 248-record corpus in the legacy HHO-named folder is the PC
+companion database to Shneiderman and Kearsley's *Hypertext Hands-On!* (1989),
+not the ACM conference publication. Both are important restoration targets;
+the ACM Hyperties version's extracted files are in the CACM July 1988 folder.
+
+A reader should be able to inspect a link's definition before deciding to
+navigate, then follow it without losing the surrounding context. The edition
+can bring together the ACM database's DOS-era content and evidence with ideas
+from the NeWS version: embedded interactive programs, font and color selection
+with pie menus, and demonstrations such as the spinning earth. Modern interactive
+pieces—including the PDP-10 emulator—should feel like authored parts of the
+publication, not unrelated demos bolted onto a reader. Historical originals,
+new interpretation and contemporary behavior will remain distinguishable.
+
+This is the first focus, not a declaration that the larger HyperTIES, museum
+and preservation work is abandoned. The Hypertext '89 panel reports that all
+three ACM platform versions were released in Fall 1988. Its KMS Sun/Apollo
+version is also the edition cataloged by ACM under DOI
+[10.1145/51120](https://dl.acm.org/doi/book/10.1145/51120); the catalog's
+January 2000 date is not the original release date.
+
 ## Start here
 
-**[Read the recovered book and museum online: the HyperTIES reading room](https://hyperties.org/archive/reading-room/)**
-— follow the links in *Hypertext on Hypertext* and the Holocaust museum
-encyclopedia in your browser. Begin with
+**[Read the recovered databases and museum online: the HyperTIES reading room](https://hyperties.org/archive/reading-room/)**
+— follow the links in the 248-record PC book database (strongly matched to
+*Hypertext Hands-On!*) and the Holocaust museum encyclopedia in your browser.
+Begin with
 [the hypertext joke](https://hyperties.org/archive/reading-room/#book:EXAMPLFP).
 
 **[Ben, welcome back — a five-minute tour](docs/README.md)**
@@ -72,8 +106,9 @@ are excluded.
 
 ## Current recovery
 
-- **All 248 book records decoded**: 218 LZW and 30 adaptive arithmetic,
-  including the six hyper-joke records and their branching links.
+- **All 248 *Hypertext Hands-On!* book records decoded**: 218 LZW and 30
+  adaptive arithmetic, including the six hyper-joke records and their
+  branching links. This is separate from the first ACM publication target.
 - **402 earlier museum articles parsed**, preserving thematic and chronological
   navigation evidence.
 - **49 comparable ACM records decoded byte-for-byte** against original sources.

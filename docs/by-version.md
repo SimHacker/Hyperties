@@ -8,7 +8,7 @@ Version labels below distinguish executable/readme evidence from inference. Arti
 |---|---|---|
 | [ACM](../corpus/books-and-literature/ACM/README.md) | Exact release unconfirmed; storage dialect alone is not a version number | loose articles, classic packed TIE |
 | [CACM-Hypertext Conference issue July 1988](../corpus/books-and-literature/CACM-Hypertext%20Conference%20issue%20July%201988/README.md) | Exact release unconfirmed; storage dialect alone is not a version number | loose articles, classic packed TIE |
-| [HHO-Hypertext on Hypertext book-1988](../corpus/books-and-literature/HHO-Hypertext%20on%20Hypertext%20book-1988/README.md) | Exact release unconfirmed; storage dialect alone is not a version number | classic packed TIE |
+| [HHO-Hypertext on Hypertext book-1988](../corpus/books-and-literature/HHO-Hypertext%20on%20Hypertext%20book-1988/README.md) | 1989 *Hypertext Hands-On!* PC companion database; exact disk provenance unconfirmed | classic packed TIE |
 | [cr](../corpus/books-and-literature/cr/README.md) | Exact release unconfirmed; storage dialect alone is not a version number | classic packed TIE |
 | [sigchi](../corpus/books-and-literature/sigchi/README.md) | Exact release unconfirmed; storage dialect alone is not a version number | classic packed TIE |
 | [horror](../corpus/books-and-literature/horror/README.md) | Retained browser2; exact release unconfirmed | loose articles |

@@ -1,7 +1,7 @@
 <!-- Generated collection documentation: analysis/document-collections.mjs -->
-# Hypertext on Hypertext: 1988 book corpus
+# Hypertext Hands-On!: 1989 PC book corpus
 
-Packed book database with chapter navigation, concepts, personalities, design examples and the hypertext joke.
+Packed IBM-PC book database with chapter navigation, concepts, personalities, design examples and the hypertext joke. The folder’s legacy HHO name is not its bibliographic title.
 
 ## Read this directory in layers
 
@@ -11,14 +11,13 @@ Packed book database with chapter navigation, concepts, personalities, design ex
 
 ## Recovery status
 
-Crown jewel: all 248 indexed records decoded: 218 LZW and 30 adaptive arithmetic. Exact edition/title to confirm with Ben.
+Crown jewel: all 248 indexed records decoded: 218 LZW and 30 adaptive arithmetic. Strongly matched to Shneiderman and Kearsley’s 1989 Hypertext Hands-On!; exact disk provenance is unverified.
 
 This catalog contains **42 retained files / 642,456 bytes**, excluding navigation documents and Git-ignored operational/private material. Counts include descendants. Original basenames and bytes are preserved; programs and imported external actions are not executed by the modern readers.
 
 ## Related collections
 
-- [User-interface research and hypertext](../../../corpus/hyperties-demos/htuis/README.md)
-- [Earlier Jewish Heritage and Holocaust encyclopedia](../../../corpus/museum/oldmjh/README.md)
+- [ACM Hypertext on Hypertext: Hyperties/PC](../../../corpus/books-and-literature/CACM-Hypertext%20Conference%20issue%20July%201988/README.md)
 
 ## Context and formats
 

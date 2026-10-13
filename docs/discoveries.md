@@ -32,11 +32,35 @@ The owner recalls Ben creating the first hypertext joke. The files establish the
 presence and structure of these examples, but do not by themselves establish
 authorship or historical priority. Those deserve an oral-history note from Ben.
 
-## Hypertext on Hypertext
+## The *Hypertext Hands-On!* book and ACM *Hypertext on Hypertext*
 
-The supplied archive calls this the 1988 *Hypertext on Hypertext* book database.
-Another authored demo refers to a “Hypertext Hands-On!” hyperbook. Precise title,
-edition and authorship remain questions to confirm, not labels to silently merge.
+The archive's legacy HHO folder contains a 248-record IBM-PC book database
+strongly identified as the software companion to Shneiderman and Kearsley's
+*Hypertext Hands-On!* (Addison-Wesley, 1989): its epilog is “The Making of
+Hypertext Hands-On!” and HCIL's official [book page](https://www.cs.umd.edu/hcil/pubs/books/hypertext-hands-on.shtml)
+describes an IBM-PC diskette package with similar book/software contents.
+Exact disk provenance remains unverified.
+
+This is separate from ACM's 1988 *Hypertext on Hypertext*, an interactive
+publication of the July 1988 *Communications of the ACM* hypertext special
+section. The Hypertext '89
+panel paper, [“Lessons Learned From the ACM Hypertext on Hypertext Project”](https://doi.org/10.1145/74224.74255),
+states that ACM released three platform versions in Fall 1988: Hyperties/IBM
+PC, HyperCard/Macintosh and KMS/Sun-Apollo. The extracted CACM July 1988
+corpus is the surviving match for the ACM Hyperties PC version; no raw floppy
+image is present. The ACM `ACM` folder in this repository is a separate
+computing-literature database.
+
+Jakob Nielsen's [Hypertext '89 trip report](https://www.nngroup.com/articles/trip-report-hypertext-89/)
+says the ACM Hyperties/PC version had 307 nodes and included the full IRIS
+hypertext bibliography plus excerpts from his Hypertext '87 trip report.
+That matches the 307 parsed `.FIL` records in the retained CACM tree, although
+its `index.new` lists 306 records. Identify the unmatched node and verify those
+reported supplementary materials against the files. Nielsen also notes that
+the team redrew figures for CGA for broad compatibility, despite lower image
+quality in some cases, and warned readers when the printed figure was better.
+Preserve those CGA images as historical evidence; any print-quality scan or
+modern image should be a separate, labeled access derivative.
 
 | Recovery measure | Current result |
 |---|---:|
@@ -54,7 +78,8 @@ authoring, systems, personalities, possibilities and future developments.
 The former 30 recovery gaps were solved by static analysis of the historical
 browser and known-plaintext comparisons: [adaptive arithmetic format](../analysis/arithmetic-format.md).
 The decoder matches 113 CACM originals byte-for-byte, and the
-[live reading room](https://hyperties.org/archive/reading-room/) now includes every book record.
+[live reading room](https://hyperties.org/archive/reading-room/) now includes every
+record from the *Hands-On!* PC database.
 
 The next goal is a readable, searchable access edition that keeps short
 descriptions, aliases, links and original graphics—not merely a flattened text
@@ -74,10 +99,43 @@ There is a firm documentary starting point:
 cites **[HYP88] Hypertext on Hypertext**, describing the electronic version of
 the special CACM edition available for Macintosh or PC. That establishes a
 reference to the publication; it does not by itself establish why blue became
-the Web's link color. The story of Hyperties' highlighted links, color research
-and influence needs its own evidence: contemporary papers, original screen
-colors and configuration, early Web implementations, and clearly attributed
-recollections from Ben, Tim and other participants.
+the Web's link color.
+
+There is now a more explicit first-person account from Ben. In an email
+forwarded by Don Hopkins to the Internet History mailing list on April 15,
+2020, Ben says his idea (around 1984) and the work of University of Maryland
+graduate students—especially Dan Ostroff and Larry Koved—defined, implemented
+and empirically validated the visual design of highlighted, selectable
+in-paragraph links. Ben cites two 1986 papers whose manuscripts were received
+in 1985:
+
+- Koved and Shneiderman, [“Embedded Menus: Selecting Items in Context”](https://doi.org/10.1145/5684.5687),
+  [PDF](https://donhopkins.com/home/documents/Koved-Embedded%20Menues-CACM-4-1986.pdf),
+  *Communications of the ACM*, April 1986, 29(4), 312–318 (received September
+  1985; accepted November 1985).
+- Ewing, Mehrabanzad, Sheck, Ostroff and Shneiderman, [“An Experimental
+  Comparison of a Mouse and Arrow-Jump Keys for an Interactive Encyclopedia”](https://doi.org/10.1016/S0020-7373(86)80038-4),
+  [published PDF](https://donhopkins.com/home/documents/Ewing-Ostroff-mouse-arrowkeys-IJMMS-1986-01-published.pdf),
+  *International Journal of Man-Machine Studies*, 24 (1986), 29–45
+  (received March 6, 1985; revised September 10, 1985).
+
+The papers support the chronology and the development of selectable,
+highlighted in-text items: Koved and Shneiderman describe embedded menus in
+TIES, including the museum context; Ewing et al. evaluate mouse versus
+arrow-jump selection of highlighted terms in TIES on an IBM PC monochrome
+display. Neither paper, by itself, establishes the specific choice of blue:
+the Ewing study was monochrome, and the Koved paper's findings concern
+embedded versus explicit menus, not a controlled comparison of link colors.
+The color-selection claim remains Ben's later recollection unless its
+underlying color experiment or contemporary documentation is found.
+
+Ben further states that ACM's PC Hyperties *Hypertext on Hypertext* disks
+were influential and that Tim Berners-Lee told him at a conference that the
+blue highlighting came from their work. This is specifically Ben's
+recollection, recorded in 2020; it is stronger and more direct than inference
+from the 1989 proposal's citation, but it is not a contemporaneous statement
+from Tim or independent proof of the conversation. Keep attribution and
+uncertainty explicit.
 
 ### Existing record: Mozilla article and Hacker News discussion
 
@@ -88,15 +146,16 @@ Don's archived links identify Elise Blanchard's Mozilla articles:
 - [January 2022 Hacker News discussion of the follow-up](https://news.ycombinator.com/item?id=29897811)
 - [Don's comment quoting Ben's account](https://news.ycombinator.com/item?id=29921532)
 - [Don's response to the follow-up](https://news.ycombinator.com/item?id=29930003)
+- [Don's October 2025 comment linking Ben's 2020 email](https://news.ycombinator.com/item?id=45485177)
 
 The follow-up credits Don for pointing Blanchard to Ben, whom she interviewed.
 It reports the highlighted light-blue link's implementation by Dan Ostroff
 and Ben's account of experiments comparing visibility with reading retention.
-Don's comment separately reproduces Ben's recollection: red made links easier
-to spot but reduced comprehension and recollection; the team chose light blue,
-and Tim told Ben that the *Hypertext on Hypertext* design influenced him.
-This is attributed testimony, not a substitute for locating the experiment
-records or the original correspondence.
+Don's 2022 comment separately reproduces Ben's recollection: red made links
+easier to spot but reduced comprehension and recollection; the team chose
+light blue, and Tim told Ben that the *Hypertext on Hypertext* design
+influenced him. The 2020 mailing-list post supplies Ben's quoted email, with
+his explicit attribution to the UMD work and student researchers.
 
 Preserve the discussion's qualifications too:
 [Sean Luke's comment](https://news.ycombinator.com/item?id=29899686)
@@ -106,6 +165,19 @@ distinct from the evidence for HCIL's studies and Ben's recollection of
 influence. The contextual essay should distinguish cyan/light blue from later
 dark-blue defaults, and not collapse a multi-system history into one unverified
 chain of copying.
+
+Don's 2025 Hacker News comment says that Marc Andreessen may have taken
+undeserved credit, while also allowing that he might not have known or
+remembered the influence Ben described. That comment is Don's interpretation,
+not evidence of what Andreessen knew or said. Neither Ben's 2020 email nor the
+quoted exchange establishes that Andreessen knowingly claimed credit for the
+Hyperties color decision. Do not frame the publication as a finding of
+plagiarism or intentional appropriation without direct, corroborating evidence.
+
+There is also an unresolved sales-count difference: Nielsen's 1989 report
+records 1,800 ACM Hyperties *Hypertext on Hypertext* copies sold; Ben's
+forwarded 2020 email estimates 4,000 copies. Treat these as reports from
+different dates or counting scopes until sales records resolve them.
 
 ### Planned publication layers
 

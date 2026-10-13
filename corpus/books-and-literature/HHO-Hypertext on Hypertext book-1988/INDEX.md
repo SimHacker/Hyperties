@@ -1,5 +1,5 @@
 <!-- Generated collection documentation: analysis/document-collections.mjs -->
-# File index: Hypertext on Hypertext: 1988 book corpus
+# File index: Hypertext Hands-On!: 1989 PC book corpus
 
 [Overview](README.md) · [Glance](GLANCE.yml)
 

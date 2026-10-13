@@ -2,6 +2,47 @@
 
 [Current layout](layout.md) · [Repository index](../INDEX.md)
 
+## First product: a modern Hypertext on Hypertext
+
+Following Don's October 12 conversation with Ben Shneiderman, the first product
+to focus on is a polished, modern edition of ACM's 1988 *Hypertext on
+Hypertext*, the interactive publication of the July 1988 *Communications of
+the ACM* hypertext special section. The [Hypertext '89 panel paper](https://doi.org/10.1145/74224.74255)
+identifies its three versions as
+Hyperties/IBM PC, HyperCard/Macintosh and KMS/Sun-Apollo. The goal is not
+pixel-by-pixel or click-by-click recreation. It is to develop the next version
+of HyperTIES around a complete, authored publication: readable and accessible,
+preserving the original content and paths, and bringing forward the
+link-preview interaction so a reader can see a definition before choosing
+whether to navigate. The 248-record *Hypertext Hands-On!* book corpus is a
+related but separate restoration target.
+
+This publication should also bring together good ideas from HyperTIES across
+editions. The NeWS system's interactive applications, font/color-selection pie
+menus and spinning-earth demonstration are examples of content and controls
+that can live inside an authored document. Modern counterparts could include
+the PDP-10 emulator and a new implementation of the pie-menu interactions.
+These are promising examples to design and curate—not a promise that every
+historical applet or emulator is already integrated. Label original evidence,
+historical reconstruction and new interpretation separately.
+
+The ACM Digital Library catalogs the KMS “Sun and Apollo version” under
+[DOI 10.1145/51120](https://dl.acm.org/doi/book/10.1145/51120) with a January
+2000 date. The Hypertext '89 panel establishes that the three platform
+versions were released in Fall 1988; the later catalog date should not be
+treated as the edition's creation date.
+
+The current reading room is a recovery prototype and useful evidence; it is
+not itself the finished product. Prioritize design and implementation decisions
+that make this book a coherent, polished publication and advance the modern
+HyperTIES it will run in.
+
+The [task-shaped interaction design](task-shaped-interaction.md) applies this
+to the webtop: treat a reader's persistent, shareable arrangement of content,
+tools and annotations as a first-class view overlay, separate from the
+preserved source. Real tasks and recovered applications should determine
+which overlays, panes and interaction channels are worth implementing.
+
 ## Owner's direction, October 11, 2026
 
 Don Hopkins's own Hyperties NeWS edition, including its content, code and reader,
@@ -62,6 +103,14 @@ should shape and test the preservation pipeline and modern general-purpose
 HyperTIES/webtop. Inspirations include gwern.net, pie menus, tabbed windows,
 HyperLook, HyperCard and HyperTIES; their practical demands should guide reusable
 capabilities rather than justify a speculative feature inventory.
+
+Persistent user-created views belong in that practical design space. A reader
+should be able to arrange an article, facsimile, notes and interactive tool
+around a concrete task, then save, revisit, share or fork that arrangement
+without cloning or modifying its source materials. Such a view is itself
+useful authored work, not just local window-placement preference. See
+[task-shaped interaction](task-shaped-interaction.md) for the research
+context, overlay principles and design implications.
 
 Don reports permission and encouragement from Norm Margolus to develop
 interactive courseware based on chapters of his CAM6 book. A cellular-automata

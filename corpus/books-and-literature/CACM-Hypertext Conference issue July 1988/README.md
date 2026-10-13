@@ -1,7 +1,7 @@
 <!-- Generated collection documentation: analysis/document-collections.mjs -->
-# CACM hypertext special section, July 1988
+# ACM Hypertext on Hypertext: Hyperties/PC
 
-Electronic edition of the July 1988 Communications of the ACM special hypertext section, including authored articles, bibliography, portraits and figures.
+Extracted Hyperties/IBM-PC files for ACM’s Fall 1988 Hypertext on Hypertext, based on the July 1988 Communications of the ACM special hypertext section. The 307 parsed article files match Jakob Nielsen’s contemporary node count; his trip report also describes added IRIS bibliography and Hypertext ’87 report excerpts. Figures were redrawn for CGA, sacrificing fidelity for compatibility; not a raw floppy image.
 
 ## Read this directory in layers
 
@@ -11,9 +11,13 @@ Electronic edition of the July 1988 Communications of the ACM special hypertext 
 
 ## Recovery status
 
-A landmark early hypertext corpus; loose articles preserve original links and markup.
+One of three independently developed platform versions identified in the Hypertext ’89 panel. A landmark early hypertext corpus; loose articles preserve original links and markup.
 
 This catalog contains **359 retained files / 1,434,080 bytes**, excluding navigation documents and Git-ignored operational/private material. Counts include descendants. Original basenames and bytes are preserved; programs and imported external actions are not executed by the modern readers.
+
+## Related collections
+
+- [Hypertext Hands-On!: 1989 PC book corpus](../../../corpus/books-and-literature/HHO-Hypertext%20on%20Hypertext%20book-1988/README.md)
 
 ## Context and formats
 
